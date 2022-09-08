@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.9"
+  }
+}
