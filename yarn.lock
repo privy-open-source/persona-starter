@@ -364,7 +364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carbon/icons-vue@npm:^10.49.1":
+"@carbon/icons-vue@npm:10.56.0":
   version: 10.56.0
   resolution: "@carbon/icons-vue@npm:10.56.0"
   dependencies:
@@ -738,7 +738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:^0.3.0":
+"@privyid/persona@npm:0.3.0":
   version: 0.3.0
   resolution: "@privyid/persona@npm:0.3.0"
   dependencies:
@@ -6208,8 +6208,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@carbon/icons-vue": ^10.49.1
-    "@privyid/persona": ^0.3.0
+    "@carbon/icons-vue": 10.56.0
+    "@privyid/persona": 0.3.0
     nuxt: 3.0.0-rc.9
   languageName: unknown
   linkType: soft
