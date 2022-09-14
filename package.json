@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@privyid/tailwind-preset": "0.3.0",
-    "autoprefixer": "10.4.9",
+    "autoprefixer": "10.4.10",
     "postcss": "8.4.16",
     "tailwindcss": "3.1.8",
     "vitepress": "1.0.0-alpha.13",
