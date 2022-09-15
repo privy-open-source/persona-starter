@@ -435,19 +435,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carbon/icon-helpers@npm:^10.32.0":
-  version: 10.32.0
-  resolution: "@carbon/icon-helpers@npm:10.32.0"
-  checksum: 0e30aa111ccde24bf02dd17b3d1016ce829e2a1f9082c2986520b3df38a8cad504a231d0d4fd0cbe15b3e35af0e091ff7ce09cb2d20553e4618d800981f933b5
+"@carbon/icon-helpers@npm:^10.33.0":
+  version: 10.33.0
+  resolution: "@carbon/icon-helpers@npm:10.33.0"
+  checksum: 976b32e2f46860b2c7f55cfea9f79d3ce350d10726ca0400b340f3fe28122029d29912da16674340d9cfcf5ad860be82c3898c31bd2702fa5a6b60135896fa54
   languageName: node
   linkType: hard
 
-"@carbon/icons-vue@npm:10.56.0":
-  version: 10.56.0
-  resolution: "@carbon/icons-vue@npm:10.56.0"
+"@carbon/icons-vue@npm:10.57.0":
+  version: 10.57.0
+  resolution: "@carbon/icons-vue@npm:10.57.0"
   dependencies:
-    "@carbon/icon-helpers": ^10.32.0
-  checksum: 81257d986c1c7ed7704239b9e65a3d1672cc428e4ec34e1e2188a971aa66f6ef122848da04f646d839ebdb226abdc690073a3c035477ff6e6022776204fcbd91
+    "@carbon/icon-helpers": ^10.33.0
+  checksum: 544d5a7e257b45c5a3792f4fcbd3a247ce8ed372be525fb3694e659e15c72e9705f38690958bd495fc0c8bff670facb70f7f3922307393afc7c1a54ad5e1ee82
   languageName: node
   linkType: hard
 
@@ -6157,7 +6157,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@carbon/icons-vue": 10.56.0
+    "@carbon/icons-vue": 10.57.0
     "@privyid/persona": 0.3.0
     nuxt: 3.0.0-rc.10
   languageName: unknown
