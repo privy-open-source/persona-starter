@@ -17,7 +17,6 @@ COPY ./package*.json ./
 COPY ./yarn.lock ./
 COPY ./.yarnrc.yml ./
 COPY ./.yarn ./.yarn
-COPY ./packages ./packages
 
 # Install dependencies
 RUN yarn install --immutable
@@ -44,4 +43,4 @@ WORKDIR /usr/src/app
 # Set folder
 ENV FOLDER=/usr/src/app/web
 
-COPY --from=builder /usr/src/app/components/.vitepress/dist ./web
+COPY --from=builder /usr/src/app/docs/.vitepress/dist ./web
