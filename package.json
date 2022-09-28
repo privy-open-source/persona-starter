@@ -12,7 +12,7 @@
     "postcss": "8.4.16",
     "tailwindcss": "3.1.8",
     "vitepress": "1.0.0-alpha.15",
-    "vue": "3.2.39"
+    "vue": "3.2.40"
   },
   "dependencies": {
     "@privyid/persona": "0.3.0"
