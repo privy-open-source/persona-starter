@@ -8,7 +8,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@carbon/icons-vue": "10.57.0",
+    "@carbon/icons-vue": "10.59.0",
     "@privyid/persona": "0.3.0",
     "nuxt": "3.0.0-rc.11"
   }
