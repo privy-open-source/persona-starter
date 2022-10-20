@@ -692,6 +692,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@privyid/tailwind-animation@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-animation@npm:0.4.0"
+  peerDependencies:
+    tailwind: ">= 3.0.0"
+  checksum: c5f22ac8126ff874cfb41731cf64e0a681fa1c383fe4c8640022ba995494ff41ffbb46cc166bc0dc5ee3dc2ffe2d507953d2b90208f56a0ffb7b9e134162f2fe
+  languageName: node
+  linkType: hard
+
 "@privyid/tailwind-extended@npm:^0.3.0":
   version: 0.3.0
   resolution: "@privyid/tailwind-extended@npm:0.3.0"
@@ -701,7 +710,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:0.3.0, @privyid/tailwind-preset@npm:^0.3.0":
+"@privyid/tailwind-extended@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-extended@npm:0.4.0"
+  peerDependencies:
+    tailwind: ">= 3.0.0"
+  checksum: 1680b099c6839c35e175d7ae4a7cc33fe0f78660ddc9922458b3202fd66accc12d4038b6ff7e777bb243c25fdff83d47cf75e263be37b0da3948e992bdfaf336
+  languageName: node
+  linkType: hard
+
+"@privyid/tailwind-preset@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-preset@npm:0.4.0"
+  dependencies:
+    "@privyid/tailwind-animation": ^0.4.0
+    "@privyid/tailwind-extended": ^0.4.0
+  peerDependencies:
+    tailwind: ">= 3.0.0"
+  checksum: aa07d63584f6cf18c53ad49ac8d6860c55085eeb05d4b3c8e69a2793d01cc270be3801fa8d2ae2a02b2d53fa0d2e91074f7760a0cd690ffe622c94defe411e6d
+  languageName: node
+  linkType: hard
+
+"@privyid/tailwind-preset@npm:^0.3.0":
   version: 0.3.0
   resolution: "@privyid/tailwind-preset@npm:0.3.0"
   dependencies:
@@ -3943,7 +3973,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@privyid/persona": 0.3.0
-    "@privyid/tailwind-preset": 0.3.0
+    "@privyid/tailwind-preset": 0.4.0
     autoprefixer: 10.4.12
     postcss: 8.4.18
     tailwindcss: 3.1.8
