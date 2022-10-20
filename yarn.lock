@@ -442,7 +442,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carbon/icons-vue@npm:10.59.0":
+"@carbon/icons-vue@npm:10.59.0, @carbon/icons-vue@npm:^10.49.1":
   version: 10.59.0
   resolution: "@carbon/icons-vue@npm:10.59.0"
   dependencies:
@@ -655,6 +655,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:3.0.0-rc.11":
+  version: 3.0.0-rc.11
+  resolution: "@nuxt/kit@npm:3.0.0-rc.11"
+  dependencies:
+    "@nuxt/schema": 3.0.0-rc.11
+    c12: ^0.2.13
+    consola: ^2.15.3
+    defu: ^6.1.0
+    globby: ^13.1.2
+    hash-sum: ^2.0.0
+    ignore: ^5.2.0
+    jiti: ^1.16.0
+    knitwork: ^0.1.2
+    lodash.template: ^4.5.0
+    mlly: ^0.5.16
+    pathe: ^0.3.8
+    pkg-types: ^0.3.5
+    scule: ^0.3.2
+    semver: ^7.3.7
+    unctx: ^2.0.2
+    unimport: ^0.6.7
+    untyped: ^0.5.0
+  checksum: f1b2480e6ea7eef34f5f109606d16bf511611e7e320fe634ed1d40dbd4ee6e6386db40d90216bd0a772d343a9a0fe47d0405214f2bd04babd75cf3a1c7494aef
+  languageName: node
+  linkType: hard
+
 "@nuxt/kit@npm:3.0.0-rc.12, @nuxt/kit@npm:^3.0.0-rc.11":
   version: 3.0.0-rc.12
   resolution: "@nuxt/kit@npm:3.0.0-rc.12"
@@ -681,7 +707,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^3.0.0-rc.5, @nuxt/kit@npm:^3.0.0-rc.9":
+"@nuxt/kit@npm:^3.0.0-rc.5":
   version: 3.0.0-rc.9
   resolution: "@nuxt/kit@npm:3.0.0-rc.9"
   dependencies:
@@ -720,6 +746,25 @@ __metadata:
     postcss-url: ^10.1.1
     semver: ^7.3.4
   checksum: e2846ad1383200ea3fe4d1146717f1c4ac06afb74997cc2ea0ba91210b6225f201fbd43af5d6bd5a03a86c7a53b95aae555f7d67a63a549d2d1036f0fe4b50fb
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:3.0.0-rc.11":
+  version: 3.0.0-rc.11
+  resolution: "@nuxt/schema@npm:3.0.0-rc.11"
+  dependencies:
+    c12: ^0.2.13
+    create-require: ^1.1.1
+    defu: ^6.1.0
+    jiti: ^1.16.0
+    pathe: ^0.3.8
+    pkg-types: ^0.3.5
+    postcss-import-resolver: ^2.0.0
+    scule: ^0.3.2
+    std-env: ^3.2.1
+    ufo: ^0.8.5
+    unimport: ^0.6.7
+  checksum: f31d42c629fb923ff4f9479114d5e10b95c434d018cb888f6ab941b5cc7db5ca5179ebe53529794a43b10000d616b130915413c416e919301482d45fd5b5f36e
   languageName: node
   linkType: hard
 
@@ -862,45 +907,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@privyid/persona@npm:0.3.0"
+"@privyid/persona@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/persona@npm:0.4.0"
   dependencies:
-    "@nuxt/kit": ^3.0.0-rc.9
+    "@carbon/icons-vue": ^10.49.1
+    "@nuxt/kit": 3.0.0-rc.11
+    "@nuxt/schema": 3.0.0-rc.11
     "@nuxtjs/tailwindcss": ^5.3.2
-    "@privyid/tailwind-preset": ^0.3.0
+    "@privyid/tailwind-preset": ^0.4.0
     postcss-custom-properties: ^12.1.8
-  checksum: c287103c7e3986294210cf3965cfe804bf32bfe92efb79dde384043800eea196dc54c95c9e23a4218d7e88672974a954372d99a7bfe7fd9d5ec5a46e39865234
+  checksum: 7f6b316f00c6b2c416ce4fa96d3b987b2f86bea11030414c2e014a8493dc703518c6b68a0c774f2b9bda6d749d9ff97fecb86c332df24457a53b2b677e8fcaa8
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-animation@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@privyid/tailwind-animation@npm:0.3.0"
+"@privyid/tailwind-animation@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-animation@npm:0.4.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: cbef0819d97fbe365edb8c1d5d7495187162008f40e38003fc75231d6c81eb4233d218961044bce6ebac2ac74a88bf715bb3c18cd2a8e18e2e47e5413a9d8710
+  checksum: c5f22ac8126ff874cfb41731cf64e0a681fa1c383fe4c8640022ba995494ff41ffbb46cc166bc0dc5ee3dc2ffe2d507953d2b90208f56a0ffb7b9e134162f2fe
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-extended@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@privyid/tailwind-extended@npm:0.3.0"
+"@privyid/tailwind-extended@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-extended@npm:0.4.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: abb66f57e0072416a90b16f9b4b38398d9243eb898868d9453150df44f676f4e1e56afc92d16705345cf7f804492bc74ec657f1f48b575deba81e72c01d35516
+  checksum: 1680b099c6839c35e175d7ae4a7cc33fe0f78660ddc9922458b3202fd66accc12d4038b6ff7e777bb243c25fdff83d47cf75e263be37b0da3948e992bdfaf336
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@privyid/tailwind-preset@npm:0.3.0"
+"@privyid/tailwind-preset@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/tailwind-preset@npm:0.4.0"
   dependencies:
-    "@privyid/tailwind-animation": ^0.3.0
-    "@privyid/tailwind-extended": ^0.3.0
+    "@privyid/tailwind-animation": ^0.4.0
+    "@privyid/tailwind-extended": ^0.4.0
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 693c6d201954f2fb2452ce8340e65f511582b919e899597bb5db1c7667610d153b12d1702a38d4aa7a5e085077f68d28ce1fe68b32d8b40527b7b5f49d645432
+  checksum: aa07d63584f6cf18c53ad49ac8d6860c55085eeb05d4b3c8e69a2793d01cc270be3801fa8d2ae2a02b2d53fa0d2e91074f7760a0cd690ffe622c94defe411e6d
   languageName: node
   linkType: hard
 
@@ -6350,7 +6397,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@carbon/icons-vue": 10.59.0
-    "@privyid/persona": 0.3.0
+    "@privyid/persona": 0.4.0
     nuxt: 3.0.0-rc.12
   languageName: unknown
   linkType: soft
