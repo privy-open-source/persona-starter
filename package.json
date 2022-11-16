@@ -10,6 +10,6 @@
   "devDependencies": {
     "@carbon/icons-vue": "10.59.0",
     "@privyid/persona": "0.4.0",
-    "nuxt": "3.0.0-rc.12"
+    "nuxt": "3.0.0-rc.14"
   }
 }
