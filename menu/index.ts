@@ -1,8 +1,9 @@
 import IconDashboard from '@carbon/icons-vue/lib/dashboard/20'
 import IconDocument from '@carbon/icons-vue/lib/document/20'
 import IconUsers from '@carbon/icons-vue/lib/group/20'
+import { defineMenu } from '@privyid/persona/core'
 
-export default [
+export default defineMenu([
   {
     items: [
       {
@@ -25,4 +26,4 @@ export default [
       }
     ]
   },
-]
+])
