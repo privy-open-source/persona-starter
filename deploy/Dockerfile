@@ -35,7 +35,7 @@ RUN yarn docs:build
 ##############################
 ## Running
 ##############################
-FROM halverneus/static-file-server:v1.8.8
+FROM halverneus/static-file-server:v1.8.9
 
 # Set working directory
 WORKDIR /usr/src/app
