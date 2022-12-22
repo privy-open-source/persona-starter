@@ -1,18 +1,5 @@
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@privyid/persona',
-  ],
-  vite   : {
-    optimizeDeps: {
-      include: [
-        '@testing-library/user-event',
-        'interactjs',
-        'webfontloader',
-        'zxcvbn'
-      ]
-    }
-  },
+  modules: ['@privyid/persona'],
   css    : ['~/assets/css/tailwind.css'],
   postcss: {
     plugins: {
