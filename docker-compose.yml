@@ -4,5 +4,6 @@ services:
   web:
     build:
       context: ./
+      dockerfile: ./deploy/Dockerfile
     ports:
       - 3020:8080
