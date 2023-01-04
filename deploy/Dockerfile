@@ -38,7 +38,7 @@ RUN yarn build
 ##############################
 ## Running
 ##############################
-FROM keymetrics/pm2:16-alpine
+FROM keymetrics/pm2:18-alpine
 
 # Add package curl
 RUN apk add --no-cache curl
