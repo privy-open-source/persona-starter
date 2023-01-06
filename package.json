@@ -9,7 +9,7 @@
   "devDependencies": {
     "@privyid/tailwind-preset": "0.6.0",
     "autoprefixer": "10.4.12",
-    "postcss": "8.4.18",
+    "postcss": "8.4.21",
     "tailwindcss": "3.2.4",
     "vitepress": "1.0.0-alpha.21",
     "vue": "3.2.41"
