@@ -1,7 +1,7 @@
 ##############################
 ## Building
 ##############################
-FROM node:16-alpine as builder
+FROM node:19-alpine as builder
 
 RUN apk update && apk upgrade --ignore alpine-baselayout && \
     apk add --no-cache \
