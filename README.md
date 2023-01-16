@@ -6,8 +6,8 @@
 
 | Name        | Install Local                                                | Try Online                                                                                                                                                           |
 |-------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `dashboard` | `yarn dlx degit privy-open-source/persona-starter#dashboard` | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
-| `docs`      | `yarn dlx degit privy-open-source/persona-starter#docs`      | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
+| `dashboard` | `npx degit privy-open-source/persona-starter#dashboard` | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
+| `docs`      | `npx degit privy-open-source/persona-starter#docs`      | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
 
 ## Contribution
 
