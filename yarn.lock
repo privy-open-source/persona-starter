@@ -3962,7 +3962,7 @@ __metadata:
     autoprefixer: 10.4.12
     postcss: 8.4.18
     tailwindcss: 3.2.4
-    vitepress: 1.0.0-alpha.38
+    vitepress: 1.0.0-alpha.40
     vue: 3.2.45
   languageName: unknown
   linkType: soft
@@ -4546,9 +4546,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress@npm:1.0.0-alpha.38":
-  version: 1.0.0-alpha.38
-  resolution: "vitepress@npm:1.0.0-alpha.38"
+"vitepress@npm:1.0.0-alpha.40":
+  version: 1.0.0-alpha.40
+  resolution: "vitepress@npm:1.0.0-alpha.40"
   dependencies:
     "@docsearch/css": ^3.3.1
     "@docsearch/js": ^3.3.1
@@ -4561,7 +4561,7 @@ __metadata:
     vue: ^3.2.45
   bin:
     vitepress: bin/vitepress.js
-  checksum: 451869726be2ce64b6fad28d6f3a7f7247f1a8600b1eac9437dfb27bc16e740d5bb8c308ab4259b21cd275fa67a23a3d64363f59b0b59cb9b68212de75f9d658
+  checksum: 7748d8bfcaa45c3360a3c00dffd9b4083587af243fdc5fd70cc2b85e119a60e31560e5730748d465f7698d56fc6e6d74b6cdd077e54ea9933a74a0bfedc25f10
   languageName: node
   linkType: hard
 
