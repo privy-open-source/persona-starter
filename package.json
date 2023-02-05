@@ -15,6 +15,6 @@
     "vue": "3.2.45"
   },
   "dependencies": {
-    "@privyid/persona": "0.6.0"
+    "@privyid/persona": "0.7.0"
   }
 }
