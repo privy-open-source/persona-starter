@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@privyid/browserslist-config": "0.8.0",
-    "@privyid/persona": "0.7.0",
+    "@privyid/persona": "0.8.0",
     "@privyid/tailwind-preset": "0.8.0",
     "autoprefixer": "^10.4.13",
     "nuxt": "3.0.0",
