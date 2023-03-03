@@ -876,9 +876,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.7.0":
-  version: 0.7.0
-  resolution: "@privyid/persona@npm:0.7.0"
+"@privyid/persona@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@privyid/persona@npm:0.8.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -886,11 +886,11 @@ __metadata:
     "@nuxt/kit": ^3.0.0
     "@testing-library/dom": ^8.19.0
     "@testing-library/user-event": ^14.4.3
-    "@vueuse/core": 9.10.0
+    "@vueuse/core": 9.11.1
     "@vueuse/math": ^9.4.0
     "@zxing/browser": 0.1.1
-    "@zxing/library": 0.19.1
-    chart.js: 4.1.2
+    "@zxing/library": 0.19.2
+    chart.js: 4.2.0
     core-js: 3
     date-fns: 2.29.3
     defu: 6.1.1
@@ -909,13 +909,13 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.7.0
+    "@privyid/tailwind-preset": ^0.8.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
     tailwind: ">= 3.0.0"
     vue-router: ">=4.0.0"
-  checksum: 68bd673ce2f53a9abc21b37088f83e001bda4e0cc9e18f7bc787465f3a0e48ec15483a1a9709137caeec1f3e39b7c884c0ff1e50d771beff7f3f0b750eb966f9
+  checksum: de46f1523e540695d96758fd47ebc9e700071297c3227416ce4ef62eecf96f1b3cc8f66d9ca5b47ac2e1c2fac33c575790607eb858f1632b89c8cc6c7896a070
   languageName: node
   linkType: hard
 
@@ -1386,15 +1386,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/core@npm:9.10.0"
+"@vueuse/core@npm:9.11.1":
+  version: 9.11.1
+  resolution: "@vueuse/core@npm:9.11.1"
   dependencies:
     "@types/web-bluetooth": ^0.0.16
-    "@vueuse/metadata": 9.10.0
-    "@vueuse/shared": 9.10.0
+    "@vueuse/metadata": 9.11.1
+    "@vueuse/shared": 9.11.1
     vue-demi: "*"
-  checksum: 9e3b0c0baa1e3daf3ae508f76acf4e73ec80a2089d420f5de7c203e9fecd8cd4596a5e4635bbf09a762e0bba022f26806ee23b69d5d01a5d0e4b76e2ad2878a4
+  checksum: c9b4d65d50441d19d452dfebe4e13c8b56a8ea296b31b9cd93b5a52ee1b461c40ebc530415d3869083852eb874c99d5742311fd8bf750d405f4d52a768aebaa3
   languageName: node
   linkType: hard
 
@@ -1422,19 +1422,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/metadata@npm:9.10.0"
-  checksum: ef9b4970cc1795e197279b59cfd82c7475323c17ae02701e5a6be26df1258330d4fafb7c05d005dfa7af97277509a8589d62467925319e1c5c17715805554bb7
+"@vueuse/metadata@npm:9.11.1":
+  version: 9.11.1
+  resolution: "@vueuse/metadata@npm:9.11.1"
+  checksum: d4025257dc891b4ae3712a68b881409e7a58517f7b96f8949a74a99cec5e46f202fc2c326765eed9bffc8fbde6417ee737d3c2ac650799dd9e99fa5a7f9c2363
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/shared@npm:9.10.0"
+"@vueuse/shared@npm:9.11.1":
+  version: 9.11.1
+  resolution: "@vueuse/shared@npm:9.11.1"
   dependencies:
     vue-demi: "*"
-  checksum: 1481ad7273eb8835a42fd49805d32ae97465188d260ddb28fdffebda7bedea5943bf49c3bd128121b32719307eaf1cb69b37b60fa1195c10a555e7aec3d78c22
+  checksum: 373a725ba87dd84eec3882cef4dc92706f28b53256f1c23a800444c12de675c71c1773c254def5d9c3096e54b9830154d13540264c1f017770395f04b07d789f
   languageName: node
   linkType: hard
 
@@ -1468,16 +1468,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zxing/library@npm:0.19.1":
-  version: 0.19.1
-  resolution: "@zxing/library@npm:0.19.1"
+"@zxing/library@npm:0.19.2":
+  version: 0.19.2
+  resolution: "@zxing/library@npm:0.19.2"
   dependencies:
     "@zxing/text-encoding": ~0.9.0
     ts-custom-error: ^3.0.0
   dependenciesMeta:
     "@zxing/text-encoding":
       optional: true
-  checksum: ed650e4afc74560950efad3d1479f4bcd9878b6baadd4ac9280cec45bdbeba957bb1185cde7858e49493b3f0052d25bd0be3a1c277433e4e09e1f29018aec2f3
+  checksum: 080e4780135d1b424f7fe6fe5d6c168c16f0dfa165ba546e66de738947421aba13ff62de105b721198cb58db77a0a9c377774baf75a169f4f412360f1c3898bf
   languageName: node
   linkType: hard
 
@@ -2040,12 +2040,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:4.1.2":
-  version: 4.1.2
-  resolution: "chart.js@npm:4.1.2"
+"chart.js@npm:4.2.0":
+  version: 4.2.0
+  resolution: "chart.js@npm:4.2.0"
   dependencies:
     "@kurkle/color": ^0.3.0
-  checksum: 938ac88baf04eb8d784a8d89064696375bc12545421186f5ec9b69ba9b6f7b7da960754f351b59b1df2b1c314dfa848aab44267076888e664d5253bc6a4059dd
+  checksum: 281b023c013de8700a5208a45d35248b02119fadb574d0c104c7e0720605e085195ce546fd3aa27625e9db1188fdd5f7491a411463b9c30b7654a5f4b13d8d80
   languageName: node
   linkType: hard
 
@@ -6363,7 +6363,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@privyid/browserslist-config": 0.8.0
-    "@privyid/persona": 0.7.0
+    "@privyid/persona": 0.8.0
     "@privyid/tailwind-preset": 0.8.0
     autoprefixer: ^10.4.13
     nuxt: 3.0.0
