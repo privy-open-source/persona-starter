@@ -869,10 +869,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/browserslist-config@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@privyid/browserslist-config@npm:0.8.0"
-  checksum: 64c8be02cabbf76729d6fe728c2cfaba390fd3b5146d26ddbcb057855f7e45a2776b0df74ad6c1d61bb867a96ee6318139f919ecaece1bfd6beb06983476c19a
+"@privyid/browserslist-config@npm:0.9.0":
+  version: 0.9.0
+  resolution: "@privyid/browserslist-config@npm:0.9.0"
+  checksum: b0851bedae585ded2d0b28c546179059000979046f387fff919e404fa9c1d335f49fbc3b8517302e426376e16efdac579327b64bb4cee121869746585ba068f7
   languageName: node
   linkType: hard
 
@@ -6362,7 +6362,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@privyid/browserslist-config": 0.8.0
+    "@privyid/browserslist-config": 0.9.0
     "@privyid/persona": 0.8.0
     "@privyid/tailwind-preset": 0.8.0
     autoprefixer: ^10.4.13
