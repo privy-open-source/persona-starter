@@ -911,33 +911,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-animation@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@privyid/tailwind-animation@npm:0.8.0"
+"@privyid/tailwind-animation@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@privyid/tailwind-animation@npm:0.9.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: b76aa5510a28490a34e795e190455f04b50e72f8cfa14547cba5bee26e1bad0768d8bcb6c7093ab73349af133c10ebe9c59b6bd3411d80b241409321fe5951cc
+  checksum: 91209cbb0f0061fc15a63c1c5c60d3feb772cc691717377be09050646cfceb1d14e5c4f38b9457d067f5d7f5213b5f3b7c41b219b5a1cfc4060ad283846775ee
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-extended@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@privyid/tailwind-extended@npm:0.8.0"
+"@privyid/tailwind-extended@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@privyid/tailwind-extended@npm:0.9.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 4c5beed9258757dca7d05367c1b6ba15d697f8adba1fb804c7cd4f0930aed28d9f9b10d2b418d8286ec8eda3c57917903f66ae1dfc59657472b9bb1657c9972b
+  checksum: 8c2f26a296d03d8dcc3020d39fa045d95ead097b746fac11225da01d08bd037ebf4239cd5b55adc7c62c776c12f57c23bdb32987ff8315ee26bfdf6a83fb9f2b
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@privyid/tailwind-preset@npm:0.8.0"
+"@privyid/tailwind-preset@npm:0.9.0":
+  version: 0.9.0
+  resolution: "@privyid/tailwind-preset@npm:0.9.0"
   dependencies:
-    "@privyid/tailwind-animation": ^0.8.0
-    "@privyid/tailwind-extended": ^0.8.0
+    "@privyid/tailwind-animation": ^0.9.0
+    "@privyid/tailwind-extended": ^0.9.0
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 7511fd66714e94ae09d4eaf2dde85842f3106e418dfe2cb6d876972c5a82e347f8c7c878329ca413f56cd626cdeb0a2dba0cd5a61fe0a1e3e983bb000dfc4159
+  checksum: 8c5a6b5704220af91bdbef18a38b1d93e67d6c4320decb6f5941161b486a2ded38f465f48b4b4775cb9b925743796af95580c85b5e5206b1be6c4a0fcc60455e
   languageName: node
   linkType: hard
 
@@ -3973,7 +3973,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@privyid/persona": 0.7.0
-    "@privyid/tailwind-preset": 0.8.0
+    "@privyid/tailwind-preset": 0.9.0
     autoprefixer: 10.4.12
     postcss: 8.4.18
     tailwindcss: 3.2.4
