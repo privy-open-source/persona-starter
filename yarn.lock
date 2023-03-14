@@ -876,9 +876,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@privyid/persona@npm:0.8.0"
+"@privyid/persona@npm:0.9.0":
+  version: 0.9.0
+  resolution: "@privyid/persona@npm:0.9.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -890,10 +890,10 @@ __metadata:
     "@vueuse/math": ^9.4.0
     "@zxing/browser": 0.1.1
     "@zxing/library": 0.19.2
-    chart.js: 4.2.0
+    chart.js: 4.2.1
     core-js: 3
     date-fns: 2.29.3
-    defu: 6.1.1
+    defu: 6.1.2
     fast-equals: ^4.0.3
     fuse.js: 6.6.2
     interactjs: 1.10.17
@@ -909,13 +909,13 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.8.0
+    "@privyid/tailwind-preset": ^0.9.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
     tailwind: ">= 3.0.0"
     vue-router: ">=4.0.0"
-  checksum: de46f1523e540695d96758fd47ebc9e700071297c3227416ce4ef62eecf96f1b3cc8f66d9ca5b47ac2e1c2fac33c575790607eb858f1632b89c8cc6c7896a070
+  checksum: 26e0257f523545854c19e2d4778b619686544452d4d7c3f7d5d043d3f88979e78cf87cdb2e32453dd557fed7f509da2ac5441ea02498979ff7602ab3a7b1b05d
   languageName: node
   linkType: hard
 
@@ -2040,12 +2040,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:4.2.0":
-  version: 4.2.0
-  resolution: "chart.js@npm:4.2.0"
+"chart.js@npm:4.2.1":
+  version: 4.2.1
+  resolution: "chart.js@npm:4.2.1"
   dependencies:
     "@kurkle/color": ^0.3.0
-  checksum: 281b023c013de8700a5208a45d35248b02119fadb574d0c104c7e0720605e085195ce546fd3aa27625e9db1188fdd5f7491a411463b9c30b7654a5f4b13d8d80
+  checksum: 7319fdfd1e29812e87bbc07737e8c9072ff659bbc09ade8dd262f83424cd7e48f89afe5220e11e002c9f236883fae3f3adb8adc16acb4682b0ddcc0b661c3af9
   languageName: node
   linkType: hard
 
@@ -2568,7 +2568,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"defu@npm:6.1.1, defu@npm:^6.0.0, defu@npm:^6.1.1":
+"defu@npm:6.1.2":
+  version: 6.1.2
+  resolution: "defu@npm:6.1.2"
+  checksum: 2ec0ff8414d5a1ab2b8c7e9a79bbad6d97d23ea7ebf5dcf80c3c7ffd9715c30f84a3cc47b917379ea756b3db0dc4701ce6400e493a1ae1688dffcd0f884233b2
+  languageName: node
+  linkType: hard
+
+"defu@npm:^6.0.0, defu@npm:^6.1.1":
   version: 6.1.1
   resolution: "defu@npm:6.1.1"
   checksum: 51d05b48297fca6c5a0ac73558f1c6182eca544c9ac7b290692ec7e165d8c5cd20d772c58b0777a8a1186fa25f49c19d28f095982a9e478d33857d46e5fa5e48
@@ -6363,7 +6370,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@privyid/browserslist-config": 0.9.0
-    "@privyid/persona": 0.8.0
+    "@privyid/persona": 0.9.0
     "@privyid/tailwind-preset": 0.9.0
     autoprefixer: ^10.4.13
     nuxt: 3.0.0
