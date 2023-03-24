@@ -10,20 +10,20 @@ export default defineMenu([
         name : 'dashboard',
         label: 'Dashboard',
         url  : '/',
-        icon : IconDashboard
+        icon : IconDashboard,
       },
       {
         name : 'documents',
         label: 'Documents',
         url  : '/',
-        icon : IconDocument
+        icon : IconDocument,
       },
       {
         name : 'contacts',
         label: 'Contacts',
         url  : '/',
-        icon : IconUsers
-      }
-    ]
+        icon : IconUsers,
+      },
+    ],
   },
 ])

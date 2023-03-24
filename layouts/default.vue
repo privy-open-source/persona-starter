@@ -12,12 +12,12 @@
 
     <p-app>
       <div class="bg-default">
-        <slot></slot>
+        <slot />
       </div>
     </p-app>
   </div>
 </template>
 
 <script lang="ts" setup>
-  import menus from '../menu'
+import menus from '../menu'
 </script>

@@ -7,5 +7,5 @@
 </template>
 
 <script lang="ts" setup>
-  const counter = ref(0)
+const counter = ref(0)
 </script>

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@privyid/persona'],
+  modules: ['@pinia/nuxt', '@privyid/persona'],
   css    : ['~/assets/css/tailwind.css'],
   postcss: {
     plugins: {
@@ -8,6 +8,15 @@ export default defineNuxtConfig({
       'tailwindcss'           : {},
       'postcss-lighten-darken': {},
       'autoprefixer'          : {},
+    },
+  },
+  pinia     : { autoImports: ['defineStore', 'storeToRefs'] },
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        strict          : false,
+        strictNullChecks: true,
+      },
     },
   },
 })
