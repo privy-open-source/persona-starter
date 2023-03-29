@@ -11,10 +11,10 @@
   },
   "devDependencies": {
     "@pinia/nuxt": "^0.4.7",
-    "@privyid/browserslist-config": "0.9.0",
-    "@privyid/eslint-config-persona": "^0.9.0",
-    "@privyid/persona": "0.9.0",
-    "@privyid/tailwind-preset": "0.9.0",
+    "@privyid/browserslist-config": "0.10.0",
+    "@privyid/eslint-config-persona": "0.10.0",
+    "@privyid/persona": "0.10.0",
+    "@privyid/tailwind-preset": "0.10.0",
     "@types/eslint": "^8",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
@@ -36,7 +36,7 @@
     "postcss": "8.4.21",
     "postcss-hexrgba": "2.1.0",
     "postcss-lighten-darken": "0.9.0",
-    "tailwindcss": "3.3.0",
+    "tailwindcss": "3.2.4",
     "typescript": "^4.9.5"
   }
 }
