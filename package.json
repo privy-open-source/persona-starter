@@ -31,7 +31,7 @@
     "eslint-plugin-unicorn": "^46.0.0",
     "eslint-plugin-varspacing": "^1.2.2",
     "eslint-plugin-vue": "^9.9.0",
-    "nuxt": "3.0.0",
+    "nuxt": "3.4.1",
     "pinia": "^2.0.33",
     "postcss": "8.4.21",
     "postcss-hexrgba": "2.1.0",
