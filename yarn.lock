@@ -1143,10 +1143,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/browserslist-config@npm:0.10.0":
-  version: 0.10.0
-  resolution: "@privyid/browserslist-config@npm:0.10.0"
-  checksum: b890c56251a643531f431d92c44d1ecbda5727a5412b55d6d59952e7e39659842828923e3931ea9ee430ac8eefa4e72cd40f25408ed6b2f65f186d04d0358043
+"@privyid/browserslist-config@npm:0.11.0":
+  version: 0.11.0
+  resolution: "@privyid/browserslist-config@npm:0.11.0"
+  checksum: 077f0f9246d3460c2aa0b114cb05ad9412781fa73a931818ae97599178c82ab373c3c97435e83aeb2edde70c438d79afb29b5b84d488d4dd758a50c40cc3f575
   languageName: node
   linkType: hard
 
@@ -8245,7 +8245,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@pinia/nuxt": ^0.4.7
-    "@privyid/browserslist-config": 0.10.0
+    "@privyid/browserslist-config": 0.11.0
     "@privyid/eslint-config-persona": 0.10.0
     "@privyid/persona": 0.10.0
     "@privyid/tailwind-preset": 0.10.0
