@@ -1172,9 +1172,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.10.0":
-  version: 0.10.0
-  resolution: "@privyid/persona@npm:0.10.0"
+"@privyid/persona@npm:0.11.0":
+  version: 0.11.0
+  resolution: "@privyid/persona@npm:0.11.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -1205,13 +1205,13 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.10.0
+    "@privyid/tailwind-preset": ^0.11.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
     tailwind: ">= 3.0.0"
     vue-router: ">=4.0.0"
-  checksum: f85a1688da738c7e5b8cf6dc37e8d7b6e14ad88d803dc888a669deec53fe05b0285c748644342ff9389da1a978a160e5593fc0c17326ffffe60ce3f983514fb9
+  checksum: ea8a093476a5ed2d74dd13f3ff450a84b7417183a5b3ef4910d906c4841bae477c4b913fe00a3cc2455d972eb4aebfc3997f26c191bd201b65885ff00a62ae4c
   languageName: node
   linkType: hard
 
@@ -8247,7 +8247,7 @@ __metadata:
     "@pinia/nuxt": ^0.4.7
     "@privyid/browserslist-config": 0.10.0
     "@privyid/eslint-config-persona": 0.10.0
-    "@privyid/persona": 0.10.0
+    "@privyid/persona": 0.11.0
     "@privyid/tailwind-preset": 0.10.0
     "@types/eslint": ^8
     "@typescript-eslint/eslint-plugin": ^5.55.0
