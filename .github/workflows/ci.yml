@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Git Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Pull the latest image to build, and avoid caching pull-only images.
       # (docker pull is faster than caching in most cases.)
