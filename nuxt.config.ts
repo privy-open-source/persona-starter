@@ -2,7 +2,8 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@privyid/persona',
-    '@privyid/nhp/module',
+    '@privyid/nhp',
+    '@privyid/nuapi',
   ],
   css    : ['~/assets/css/tailwind.css'],
   postcss: {
