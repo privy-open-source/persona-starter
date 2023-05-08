@@ -1,6 +1,7 @@
 <template>
   <div>
     <p-button @click="counter++">
+      <pi-add-plus-16 />
       Counter: {{ counter }}
     </p-button>
   </div>

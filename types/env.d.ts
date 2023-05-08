@@ -4,3 +4,9 @@ declare module '@carbon/icons-vue/*' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module '@privyid/persona-icon/svg/*' {
+  const url: string
+
+  export default url
+}
