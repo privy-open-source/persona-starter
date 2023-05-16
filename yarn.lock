@@ -942,16 +942,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/browserslist-config@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/browserslist-config@npm:0.11.0"
-  checksum: 077f0f9246d3460c2aa0b114cb05ad9412781fa73a931818ae97599178c82ab373c3c97435e83aeb2edde70c438d79afb29b5b84d488d4dd758a50c40cc3f575
+"@privyid/browserslist-config@npm:0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/browserslist-config@npm:0.13.0"
+  checksum: 9459500c1a0963b897c78a1964af35ec90aa2f8ed7c51df39f0e5195aeb2294a2fbc300d8322a5316ff3c5c9e11fbb16ee4cc8a747cbb317759fe46a55a93e60
   languageName: node
   linkType: hard
 
-"@privyid/eslint-config-persona@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/eslint-config-persona@npm:0.11.0"
+"@privyid/eslint-config-persona@npm:0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/eslint-config-persona@npm:0.13.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5.47.0"
     "@typescript-eslint/parser": ">=5.47.0"
@@ -967,7 +967,7 @@ __metadata:
     eslint-plugin-unicorn: ">=45.0.2"
     eslint-plugin-varspacing: ">=1.2.2"
     eslint-plugin-vue: ">=9.8.0"
-  checksum: 257ac2a307d46f89a59627cdd4a27335fc477d1ad91df9efbb792f92a8c865a597cddab9d3e0c79c5496f75ed042ee98a312d89427db50fef99bcb352bfd356b
+  checksum: 08bfc5b106e51cd40de2ce4fb554a94540a8c2a32f8021af6f2119d381e961659cbe648091fc99381554463eb0b30727719bb8737df689a6c233af8618fafa86
   languageName: node
   linkType: hard
 
@@ -1002,17 +1002,17 @@ __metadata:
   linkType: hard
 
 "@privyid/persona-icon@npm:^0.13.0-rc.2":
-  version: 0.13.0-rc.2
-  resolution: "@privyid/persona-icon@npm:0.13.0-rc.2"
+  version: 0.13.0
+  resolution: "@privyid/persona-icon@npm:0.13.0"
   dependencies:
     "@nuxt/kit": ^3.4.3
-  checksum: 5cfbb02011219dc1954c0a27350e7aef33c6d9c986f1e9ba3aabc8e3ea3e2b1a72ec0b19870642f109a12a6dbb2b1273f5b04e6a9316853e81375b9da83884d5
+  checksum: a40a47fbcae414fcba035defc2fc033df1c7c4c8e3e84c98a76d120dcb43992886d8156841bb2e26537fa29e2e0e83807fa90200e679ba4f5416417533ff9cde
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/persona@npm:0.11.0"
+"@privyid/persona@npm:0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/persona@npm:0.13.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -1020,9 +1020,9 @@ __metadata:
     "@nuxt/kit": ^3.3.2
     "@testing-library/dom": ^8.19.0
     "@testing-library/user-event": ^14.4.3
-    "@vueuse/core": 9.11.1
-    "@vueuse/math": ^9.4.0
-    "@zxing/browser": 0.1.1
+    "@vueuse/core": 10.1.2
+    "@vueuse/math": 10.1.2
+    "@zxing/browser": 0.1.3
     "@zxing/library": 0.19.2
     chart.js: 4.2.1
     core-js: 3
@@ -1043,43 +1043,43 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.11.0
+    "@privyid/tailwind-preset": ^0.13.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
-    tailwind: ">= 3.0.0"
+    tailwind: ">=3.0.0"
     vue-router: ">=4.0.0"
-  checksum: ea8a093476a5ed2d74dd13f3ff450a84b7417183a5b3ef4910d906c4841bae477c4b913fe00a3cc2455d972eb4aebfc3997f26c191bd201b65885ff00a62ae4c
+  checksum: 83ca33bb3c442baade25228634fce1037183d56aa07c8c09ff411fd9e890ec69764473a4e06a5ad62a8f0521436076adaa89cd7c9a9e41d207a376d4ccc51539
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-animation@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/tailwind-animation@npm:0.11.0"
+"@privyid/tailwind-animation@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/tailwind-animation@npm:0.13.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: d399b09e32ffe63f599ace840d25bebaa4d3be87e8f60c86836191b95999292cc21492de7b77b139d8458c7c54b48b5d926f258da2bb77f3f314b0a10bb92967
+  checksum: 19d85259e397b67a120b9550e279c46110c96663ac4ded30d79738df69832378939b43f9e31f7f7041e63c9691c7e80adfd8fbe61b536536ac7681b33edebc69
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-extended@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/tailwind-extended@npm:0.11.0"
+"@privyid/tailwind-extended@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/tailwind-extended@npm:0.13.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: abc2673dc8e8925db9cc592866eb2b4b97bcf06816e1faf614327ac3d6cd033a6a75bfb4fe9c4ea7007b5450bd37d8af5a9fe9ca4393529b88ad94333849709e
+  checksum: 54b00d23f2ca0466d87156d462c76b1d7582e46ff1302be03e04182fa3834d411c0d5423382dfccc97a410c2d714a0e55bf1b7c80097f89bacef95758bdfa333
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@privyid/tailwind-preset@npm:0.11.0"
+"@privyid/tailwind-preset@npm:0.13.0":
+  version: 0.13.0
+  resolution: "@privyid/tailwind-preset@npm:0.13.0"
   dependencies:
-    "@privyid/tailwind-animation": ^0.11.0
-    "@privyid/tailwind-extended": ^0.11.0
+    "@privyid/tailwind-animation": ^0.13.0
+    "@privyid/tailwind-extended": ^0.13.0
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: e32f491718623a60305c5e45a3a7476a416ddf6cd95c780e35537cdab76fc2f8698a88636e2330be811e1454b5afdce57f6fc971b3b8c24457189a4d946b18dc
+  checksum: a635e1255e90bf5e117a922c924f8bedb16a21a13bf00e3c2eaf57a5617eebf3dd98467e97af711e91a5324a3a7792156676ecb6f1acfebf5371ff1e4d557339
   languageName: node
   linkType: hard
 
@@ -1365,10 +1365,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web-bluetooth@npm:^0.0.16":
-  version: 0.0.16
-  resolution: "@types/web-bluetooth@npm:0.0.16"
-  checksum: f68a630d062202a25c46d48686ebae1cf429dc70b4578fcf13b8357b2db63e4aedfb6f6d752bd388366be46ebd19c1c9de45f8a15c2631bb79e904fdfc454f94
+"@types/web-bluetooth@npm:^0.0.17":
+  version: 0.0.17
+  resolution: "@types/web-bluetooth@npm:0.0.17"
+  checksum: 8c72ba8cd1d7abd3fcab608e1d8eb828420df23f67d783f1282d4a747f995e91a0c861f92fa195e9423edb22bb34854452028f8a68148a593b35915635a4f4db
   languageName: node
   linkType: hard
 
@@ -1752,64 +1752,55 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:9.11.1":
-  version: 9.11.1
-  resolution: "@vueuse/core@npm:9.11.1"
+"@vueuse/core@npm:10.1.2":
+  version: 10.1.2
+  resolution: "@vueuse/core@npm:10.1.2"
   dependencies:
-    "@types/web-bluetooth": ^0.0.16
-    "@vueuse/metadata": 9.11.1
-    "@vueuse/shared": 9.11.1
-    vue-demi: "*"
-  checksum: c9b4d65d50441d19d452dfebe4e13c8b56a8ea296b31b9cd93b5a52ee1b461c40ebc530415d3869083852eb874c99d5742311fd8bf750d405f4d52a768aebaa3
+    "@types/web-bluetooth": ^0.0.17
+    "@vueuse/metadata": 10.1.2
+    "@vueuse/shared": 10.1.2
+    vue-demi: ">=0.14.0"
+  checksum: a18286495f4dc0783c3251455a1636d4913381204059e72e8d8ed02c63d4f911ebe2cbb1e9526fdca73640bb5b47bd6bd9b5842a501614f0aeab4bc721fc92a4
   languageName: node
   linkType: hard
 
-"@vueuse/math@npm:^9.4.0":
-  version: 9.13.0
-  resolution: "@vueuse/math@npm:9.13.0"
+"@vueuse/math@npm:10.1.2":
+  version: 10.1.2
+  resolution: "@vueuse/math@npm:10.1.2"
   dependencies:
-    "@vueuse/shared": 9.13.0
-    vue-demi: "*"
-  checksum: 5697c5ff1ccb13f41db2bba927758f751c385f1cffca78335ba42dc26fd0fe404878513359a3d310d938e4507a071fcc13b1f05f7aedc245e5754d890ba67fde
+    "@vueuse/shared": 10.1.2
+    vue-demi: ">=0.14.0"
+  checksum: 0e5d76d878267469b390c12cb685f2161f846587fb227b5759934c501c6dc8cae1d48f21b836d9eab7e89548ee4b1857538d2cb8d8172df0953fc77b343df489
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:9.11.1":
-  version: 9.11.1
-  resolution: "@vueuse/metadata@npm:9.11.1"
-  checksum: d4025257dc891b4ae3712a68b881409e7a58517f7b96f8949a74a99cec5e46f202fc2c326765eed9bffc8fbde6417ee737d3c2ac650799dd9e99fa5a7f9c2363
+"@vueuse/metadata@npm:10.1.2":
+  version: 10.1.2
+  resolution: "@vueuse/metadata@npm:10.1.2"
+  checksum: b72470776ec6aeb88a21b4a60b6b365ad22559c965b7038ae8c68a6a2942631748f3beb4b715bdde3d8adb1dac06a5ebeb41255f24d60c8f28f19ac6fa3bc152
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.11.1":
-  version: 9.11.1
-  resolution: "@vueuse/shared@npm:9.11.1"
+"@vueuse/shared@npm:10.1.2":
+  version: 10.1.2
+  resolution: "@vueuse/shared@npm:10.1.2"
   dependencies:
-    vue-demi: "*"
-  checksum: 373a725ba87dd84eec3882cef4dc92706f28b53256f1c23a800444c12de675c71c1773c254def5d9c3096e54b9830154d13540264c1f017770395f04b07d789f
+    vue-demi: ">=0.14.0"
+  checksum: a134cc254bfef28ceca2c48c7532a4f1e2231dbb75304e43f896b41771f3d51b93897cc9a16bbd98c7aa6163fc44e001319bbf2478408382ef4d9788875301f2
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.13.0":
-  version: 9.13.0
-  resolution: "@vueuse/shared@npm:9.13.0"
-  dependencies:
-    vue-demi: "*"
-  checksum: e53e7312bdd2030b7970afcf4d3dc3f9a47f7721a92ccb51c364d23246233cb54758f7ddacbdb9ac63d1e86ec82e97d06cb53b05a4b8d43be877d16ab61dd9bb
-  languageName: node
-  linkType: hard
-
-"@zxing/browser@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@zxing/browser@npm:0.1.1"
+"@zxing/browser@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@zxing/browser@npm:0.1.3"
   dependencies:
     "@zxing/text-encoding": ^0.9.0
   peerDependencies:
-    "@zxing/library": ^0.19.1
+    "@zxing/library": ^0.20.0
   dependenciesMeta:
     "@zxing/text-encoding":
       optional: true
-  checksum: c681b8b8c61d33c75b2e67cab05ced4de01d00d3999a8ab287c8daf349cc593e4ba62f933497cd794b83468c853eec1e30b15651da3d0665b5bcd8815e5fae17
+  checksum: 95f245c60ebfc3c807b7622ba209b0c49a9475182eb3db1465e625ed2b8fcd62282e1ddda1ee6b819386578d2edc74f61a292475c46a72ec81d999cf121b71b2
   languageName: node
   linkType: hard
 
@@ -8105,13 +8096,13 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@pinia/nuxt": ^0.4.7
-    "@privyid/browserslist-config": 0.11.0
-    "@privyid/eslint-config-persona": 0.11.0
+    "@privyid/browserslist-config": 0.13.0
+    "@privyid/eslint-config-persona": 0.13.0
     "@privyid/nhp": 0.2.0
     "@privyid/nuapi": 0.2.1
-    "@privyid/persona": 0.11.0
+    "@privyid/persona": 0.13.0
     "@privyid/persona-icon": ^0.13.0-rc.2
-    "@privyid/tailwind-preset": 0.11.0
+    "@privyid/tailwind-preset": 0.13.0
     "@types/eslint": ^8
     "@typescript-eslint/eslint-plugin": ^5.55.0
     "@typescript-eslint/parser": ^5.55.0
@@ -9563,6 +9554,22 @@ __metadata:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
   checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:>=0.14.0":
+  version: 0.14.1
+  resolution: "vue-demi@npm:0.14.1"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: af46db084503910f2fa0174d207a77018edf73f3cac86ac2aea97d073b71c0700e41fa915017722efc7d78aa2b7b7f0851b731efc6e87cce16a6fd1845ffffec
   languageName: node
   linkType: hard
 
