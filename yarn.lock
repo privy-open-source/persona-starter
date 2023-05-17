@@ -834,6 +834,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@nuxt/kit@npm:3.5.0"
+  dependencies:
+    "@nuxt/schema": 3.5.0
+    c12: ^1.4.1
+    consola: ^3.1.0
+    defu: ^6.1.2
+    globby: ^13.1.4
+    hash-sum: ^2.0.0
+    ignore: ^5.2.4
+    jiti: ^1.18.2
+    knitwork: ^1.0.0
+    lodash.template: ^4.5.0
+    mlly: ^1.2.1
+    pathe: ^1.1.0
+    pkg-types: ^1.0.3
+    scule: ^1.0.0
+    semver: ^7.5.1
+    unctx: ^2.3.0
+    unimport: ^3.0.6
+    untyped: ^1.3.2
+  checksum: 77baea10b72ebda658fd14519270e4dfac46cc8e8f1aaad17058d23a847fd369f4b74b4c0d907146991cbca950e728e2304fa3e471d878ebcd2cba5e4776ccdf
+  languageName: node
+  linkType: hard
+
 "@nuxt/schema@npm:3.4.3":
   version: 3.4.3
   resolution: "@nuxt/schema@npm:3.4.3"
@@ -848,6 +874,23 @@ __metadata:
     unimport: ^3.0.6
     untyped: ^1.3.2
   checksum: 6d249a4cfb7dcdd36d3fd2fb72761f7103a1d769f776acf691f7f848050b23459325f94b2a5ea97b7d1be32175bb522e903aef233fc7c8674a5865fec2d34092
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@nuxt/schema@npm:3.5.0"
+  dependencies:
+    defu: ^6.1.2
+    hookable: ^5.5.3
+    pathe: ^1.1.0
+    pkg-types: ^1.0.3
+    postcss-import-resolver: ^2.0.0
+    std-env: ^3.3.3
+    ufo: ^1.1.2
+    unimport: ^3.0.6
+    untyped: ^1.3.2
+  checksum: 50aee2aebd77e043036ff00d73cbb4b48795ad2d52033fec85900d183320b4633854f85a13e22038e6b536fb0ec373c396ea040a9e7a71afe845f2d1cef6e1f6
   languageName: node
   linkType: hard
 
@@ -933,12 +976,12 @@ __metadata:
   linkType: hard
 
 "@pinia/nuxt@npm:^0.4.7":
-  version: 0.4.9
-  resolution: "@pinia/nuxt@npm:0.4.9"
+  version: 0.4.11
+  resolution: "@pinia/nuxt@npm:0.4.11"
   dependencies:
-    "@nuxt/kit": ^3.0.0
-    pinia: ">=2.0.35"
-  checksum: 05e9618db43776176669ad4dff765fe61f5f29d75fa80e95507d00ccbca851603dda17f06c6c5b453c3e8180ea690852e6dd4eadec3e75647f2fe5620770b106
+    "@nuxt/kit": ^3.5.0
+    pinia: ">=2.1.0"
+  checksum: 1a634ab7cbd1ecc3fd18d909e2ef6ef7d9cd161503d638f452e1dbd87233e9f05ccd0c11d50d40a66ceb37d569b02521dfdce895b39653b513d7be39cfb8af1e
   languageName: node
   linkType: hard
 
@@ -6236,6 +6279,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mlly@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "mlly@npm:1.2.1"
+  dependencies:
+    acorn: ^8.8.2
+    pathe: ^1.1.0
+    pkg-types: ^1.0.3
+    ufo: ^1.1.2
+  checksum: 82939436ec0e1c53e400d86fd571bd005090383b3fa49d5d8b9df4b388b24bae2b7b2f0369ef0c905d29fb35377cd4724d2bf5e5cd130d922849f74948bb81f0
+  languageName: node
+  linkType: hard
+
 "mri@npm:^1.2.0":
   version: 1.2.0
   resolution: "mri@npm:1.2.0"
@@ -7135,7 +7190,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:>=2.0.35, pinia@npm:^2.0.33":
+"pinia@npm:>=2.1.0":
+  version: 2.1.0
+  resolution: "pinia@npm:2.1.0"
+  dependencies:
+    "@vue/devtools-api": ^6.5.0
+    vue-demi: ">=0.14.1"
+  peerDependencies:
+    "@vue/composition-api": ^1.4.0
+    typescript: ">=4.4.4"
+    vue: ^2.6.14 || ^3.2.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+    typescript:
+      optional: true
+  checksum: f2319dd7b8e3650d47104ef0fe521b43c696c5e0174e553c30074cb821b874def3b749037bf9e1fc138cfcdccd752006670278f791dd11534b971081f34f2c39
+  languageName: node
+  linkType: hard
+
+"pinia@npm:^2.0.33":
   version: 2.0.35
   resolution: "pinia@npm:2.0.35"
   dependencies:
@@ -8249,6 +8323,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 2d266937756689a76f124ffb4c1ea3e1bbb2b263219f90ada8a11aebebe1280b13bb76cca2ca96bdee3dbc554cbc0b24752eb895b2a51577aa644427e9229f2b
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "semver@npm:7.5.1"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
   languageName: node
   linkType: hard
 
@@ -9557,7 +9642,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-demi@npm:>=0.14.0":
+"vue-demi@npm:>=0.14.0, vue-demi@npm:>=0.14.1":
   version: 0.14.1
   resolution: "vue-demi@npm:0.14.1"
   peerDependencies:
