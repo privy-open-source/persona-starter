@@ -7621,14 +7621,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.22":
-  version: 8.4.22
-  resolution: "postcss@npm:8.4.22"
+"postcss@npm:8.4.24":
+  version: 8.4.24
+  resolution: "postcss@npm:8.4.24"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 7473dfb7ac5b4cb03576c39d687d7fc02c826ab08af97df15b5d3970662532d44a18a0994f392a9c3658ee17c292e7a55990e586b90ca0afcc9f36df13e07029
+  checksum: 814e2126dacfea313588eda09cc99a9b4c26ec55c059188aa7a916d20d26d483483106dc5ff9e560731b59f45c5bb91b945dfadc670aed875cc90ddbbf4e787d
   languageName: node
   linkType: hard
 
@@ -8121,7 +8121,7 @@ __metadata:
     eslint-plugin-vue: ^9.9.0
     nuxt: ^3.4.3
     pinia: ^2.0.33
-    postcss: 8.4.22
+    postcss: 8.4.24
     postcss-hexrgba: 2.1.0
     postcss-lighten-darken: 0.9.0
     tailwindcss: 3.3.1
