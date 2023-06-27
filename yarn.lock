@@ -403,6 +403,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.21.0":
+  version: 7.22.5
+  resolution: "@babel/runtime@npm:7.22.5"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 12a50b7de2531beef38840d17af50c55a094253697600cee255311222390c68eed704829308d4fd305e1b3dfbce113272e428e9d9d45b1730e0fede997eaceb1
+  languageName: node
+  linkType: hard
+
 "@babel/standalone@npm:^7.21.3":
   version: 7.21.8
   resolution: "@babel/standalone@npm:7.21.8"
@@ -887,9 +896,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@privyid/persona@npm:0.13.0"
+"@privyid/persona@npm:0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/persona@npm:0.16.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -899,11 +908,11 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@vueuse/core": 10.1.2
     "@vueuse/math": 10.1.2
-    "@zxing/browser": 0.1.3
-    "@zxing/library": 0.19.2
-    chart.js: 4.2.1
+    "@zxing/browser": 0.1.4
+    "@zxing/library": 0.20.0
+    chart.js: 4.3.0
     core-js: 3
-    date-fns: 2.29.3
+    date-fns: 2.30.0
     defu: 6.1.2
     fast-equals: ^4.0.3
     fuse.js: 6.6.2
@@ -920,43 +929,43 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.13.0
+    "@privyid/tailwind-preset": ^0.16.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
     tailwind: ">=3.0.0"
     vue-router: ">=4.0.0"
-  checksum: 83ca33bb3c442baade25228634fce1037183d56aa07c8c09ff411fd9e890ec69764473a4e06a5ad62a8f0521436076adaa89cd7c9a9e41d207a376d4ccc51539
+  checksum: 6c6f5debe9ae7d6564a5057d2ba79826a85f732e93ea2e2403eaade7ea1075dcaa68a9d72ff0d911af32e19f0765b1b639321fd643951567e0ac7979a111740e
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-animation@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "@privyid/tailwind-animation@npm:0.13.0"
+"@privyid/tailwind-animation@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-animation@npm:0.16.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 19d85259e397b67a120b9550e279c46110c96663ac4ded30d79738df69832378939b43f9e31f7f7041e63c9691c7e80adfd8fbe61b536536ac7681b33edebc69
+  checksum: 4fc1d86d93da0e88ea1e35d7dab36f26a2595d2c96c813b97aa636bb37e62e50d629f5ec1d8292dc6d6bf3d9bbec5b2c6279a776676e3210c16f80e3bc29284d
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-extended@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "@privyid/tailwind-extended@npm:0.13.0"
+"@privyid/tailwind-extended@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-extended@npm:0.16.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 54b00d23f2ca0466d87156d462c76b1d7582e46ff1302be03e04182fa3834d411c0d5423382dfccc97a410c2d714a0e55bf1b7c80097f89bacef95758bdfa333
+  checksum: c40aba8c6103b11e7575bc37402adf2bcc4894ffce380288b246469711022626664a6134ba65fd7ac4bc75d69e7b4bc4dba8623042e17b13d5ff393e88a2f1d2
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@privyid/tailwind-preset@npm:0.13.0"
+"@privyid/tailwind-preset@npm:0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-preset@npm:0.16.0"
   dependencies:
-    "@privyid/tailwind-animation": ^0.13.0
-    "@privyid/tailwind-extended": ^0.13.0
+    "@privyid/tailwind-animation": ^0.16.0
+    "@privyid/tailwind-extended": ^0.16.0
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: a635e1255e90bf5e117a922c924f8bedb16a21a13bf00e3c2eaf57a5617eebf3dd98467e97af711e91a5324a3a7792156676ecb6f1acfebf5371ff1e4d557339
+  checksum: 952feb80acdeae9d8b54cccc6e9d28d42391bd62f3a854f584c915c5fd6c43d8d191e55901a7201d7ecc80d801f25ac6906c475b89bdb7ec9924574683cbe92d
   languageName: node
   linkType: hard
 
@@ -1231,9 +1240,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zxing/browser@npm:0.1.3":
-  version: 0.1.3
-  resolution: "@zxing/browser@npm:0.1.3"
+"@zxing/browser@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@zxing/browser@npm:0.1.4"
   dependencies:
     "@zxing/text-encoding": ^0.9.0
   peerDependencies:
@@ -1241,20 +1250,20 @@ __metadata:
   dependenciesMeta:
     "@zxing/text-encoding":
       optional: true
-  checksum: 95f245c60ebfc3c807b7622ba209b0c49a9475182eb3db1465e625ed2b8fcd62282e1ddda1ee6b819386578d2edc74f61a292475c46a72ec81d999cf121b71b2
+  checksum: 417eb969d4c6e5f9e45c28d6eabe2bc5c5b4ee274eaf58a7386a82bf09fba2dee8c0403b645eb33540ce2e396d40bd7328e6716ce23ae1a23e6bc01bcd06db89
   languageName: node
   linkType: hard
 
-"@zxing/library@npm:0.19.2":
-  version: 0.19.2
-  resolution: "@zxing/library@npm:0.19.2"
+"@zxing/library@npm:0.20.0":
+  version: 0.20.0
+  resolution: "@zxing/library@npm:0.20.0"
   dependencies:
     "@zxing/text-encoding": ~0.9.0
-    ts-custom-error: ^3.0.0
+    ts-custom-error: ^3.2.1
   dependenciesMeta:
     "@zxing/text-encoding":
       optional: true
-  checksum: 080e4780135d1b424f7fe6fe5d6c168c16f0dfa165ba546e66de738947421aba13ff62de105b721198cb58db77a0a9c377774baf75a169f4f412360f1c3898bf
+  checksum: ba2d0e4d6213e74426fdaf096cd8af14f1c28c6d5d872e42d363ee67507d2b1d1c3a777395522df116670e5fdf59d799b48533465c7311ee09bb8ba3fbbd0e69
   languageName: node
   linkType: hard
 
@@ -1643,12 +1652,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:4.2.1":
-  version: 4.2.1
-  resolution: "chart.js@npm:4.2.1"
+"chart.js@npm:4.3.0":
+  version: 4.3.0
+  resolution: "chart.js@npm:4.3.0"
   dependencies:
     "@kurkle/color": ^0.3.0
-  checksum: 7319fdfd1e29812e87bbc07737e8c9072ff659bbc09ade8dd262f83424cd7e48f89afe5220e11e002c9f236883fae3f3adb8adc16acb4682b0ddcc0b661c3af9
+  checksum: 157ceaa3815665163cb30ccc221a5af40834dca940faa6ec02cb95406bf3e83c15c5f36ad950a1716c9d199e87f7b9be953227c4d9d445d593536175b47bbab8
   languageName: node
   linkType: hard
 
@@ -1800,10 +1809,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.29.3":
-  version: 2.29.3
-  resolution: "date-fns@npm:2.29.3"
-  checksum: e01cf5b62af04e05dfff921bb9c9933310ed0e1ae9a81eb8653452e64dc841acf7f6e01e1a5ae5644d0337e9a7f936175fd2cb6819dc122fdd9c5e86c56be484
+"date-fns@npm:2.30.0":
+  version: 2.30.0
+  resolution: "date-fns@npm:2.30.0"
+  dependencies:
+    "@babel/runtime": ^7.21.0
+  checksum: f7be01523282e9bb06c0cd2693d34f245247a29098527d4420628966a2d9aad154bd0e90a6b1cf66d37adcb769cd108cf8a7bd49d76db0fb119af5cdd13644f4
   languageName: node
   linkType: hard
 
@@ -3940,8 +3951,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@privyid/persona": 0.13.0
-    "@privyid/tailwind-preset": 0.13.0
+    "@privyid/persona": 0.16.0
+    "@privyid/tailwind-preset": 0.16.0
     autoprefixer: 10.4.14
     postcss: 8.4.18
     tailwindcss: 3.3.0
@@ -4382,7 +4393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-custom-error@npm:^3.0.0":
+"ts-custom-error@npm:^3.2.1":
   version: 3.3.1
   resolution: "ts-custom-error@npm:3.3.1"
   checksum: 50a1e825fced68d70049bd8d282379a635e43aa023a370fa8e736b12a6edba7f18a2d731fa194ac35303a8b625be56e121bdb31d8a0318250d1a8b277059fce3
