@@ -1155,16 +1155,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/browserslist-config@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/browserslist-config@npm:0.15.0"
-  checksum: e25e05dcf3774e66f434e49e35ca3842cd0f88ffb5f2f4baf01e80ff0e42c6c7fac677872eef13015df58a11d4973eb2ec6a0391aaf8d2306bb52c3ef7dc973f
+"@privyid/browserslist-config@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/browserslist-config@npm:0.16.0"
+  checksum: 082224b658b9a8a8d67326099260adadbb12c1cbb6be1685929974a3b068f5e2b7e7ceda0a085494e60e7cf0ec0399fc86f9f6bc3a798e080b66934a9301251d
   languageName: node
   linkType: hard
 
-"@privyid/eslint-config-persona@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/eslint-config-persona@npm:0.15.0"
+"@privyid/eslint-config-persona@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/eslint-config-persona@npm:0.16.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5.47.0"
     "@typescript-eslint/parser": ">=5.47.0"
@@ -1180,7 +1180,7 @@ __metadata:
     eslint-plugin-unicorn: ">=45.0.2"
     eslint-plugin-varspacing: ">=1.2.2"
     eslint-plugin-vue: ">=9.8.0"
-  checksum: e7ff9b1483a8dbb28dc94cdd53a914a5d278e28d343561058279eb2c0a0c529b460dd41c9bdc65851af1b0bea053a6936125ef15418f33249ab0e364394d81a3
+  checksum: 6ee67a8d503a5f56d0e81831ad81e8c424c4a609c7815a5e2eff767e3aef556b0ef01bf7f426e4a65becc9c433f6512e9223bc2a717b45f774fb2ed9fc049e45
   languageName: node
   linkType: hard
 
@@ -1214,18 +1214,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona-icon@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/persona-icon@npm:0.15.0"
+"@privyid/persona-icon@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/persona-icon@npm:0.16.0"
   dependencies:
     "@nuxt/kit": ^3.4.3
-  checksum: 56a8577ffad4cf83d7ebccf3bfa83d2eceda1d93176b7e926bee0966108d61af4ef5de41d979afa3b2d76a2f88b5e12b0f0c9e20afd59f65410389792bf6a8c3
+  checksum: 3bd15a8167ca87e5140b73359547cc08c800bf6ca7c8831f6ebb5449af6b18316c23e2cf6035673939bd72233e08b643427e9e970bdfb2f4768c4c359630869b
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/persona@npm:0.15.0"
+"@privyid/persona@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/persona@npm:0.16.0"
   dependencies:
     "@carbon/icons-vue": 10.49.1
     "@floating-ui/dom": ^1.0.4
@@ -1235,7 +1235,7 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@vueuse/core": 10.1.2
     "@vueuse/math": 10.1.2
-    "@zxing/browser": 0.1.3
+    "@zxing/browser": 0.1.4
     "@zxing/library": 0.20.0
     chart.js: 4.3.0
     core-js: 3
@@ -1256,43 +1256,43 @@ __metadata:
     webfontloader: 1.6.28
     zxcvbn: ^4.4.2
   peerDependencies:
-    "@privyid/tailwind-preset": ^0.15.0
+    "@privyid/tailwind-preset": ^0.16.0
     postcss-custom-properties: ^12.1.11
     postcss-hexrgba: ^2.1.0
     postcss-lighten-darken: ^0.9.0
     tailwind: ">=3.0.0"
     vue-router: ">=4.0.0"
-  checksum: fefd40b57336aa802e43440b620e2e9638c7d8d5fcbf5d0cba6358557cd0027f206c2d3162b9685ff482687c84e5631ac378ae8a3ab1b4ee575e2a8157d6e36c
+  checksum: 6c6f5debe9ae7d6564a5057d2ba79826a85f732e93ea2e2403eaade7ea1075dcaa68a9d72ff0d911af32e19f0765b1b639321fd643951567e0ac7979a111740e
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-animation@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/tailwind-animation@npm:0.15.0"
+"@privyid/tailwind-animation@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-animation@npm:0.16.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: 43a927239929c557ccb2db6b5088d197145c01de9e6f9c5fab5d7bef1a1df66e667920ce620144ff0699b30a7027b9f60c887f1af677d02c99afdd96545837e6
+  checksum: 4fc1d86d93da0e88ea1e35d7dab36f26a2595d2c96c813b97aa636bb37e62e50d629f5ec1d8292dc6d6bf3d9bbec5b2c6279a776676e3210c16f80e3bc29284d
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-extended@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/tailwind-extended@npm:0.15.0"
+"@privyid/tailwind-extended@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-extended@npm:0.16.0"
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: bc9c568d39b2a801bfe59a02c3524ff19b31d6d09af06da8db4053c0edb881cdb2900cf9309fc8ae826765449f124a1df48349ede637a9ea371eac87ea30cae0
+  checksum: c40aba8c6103b11e7575bc37402adf2bcc4894ffce380288b246469711022626664a6134ba65fd7ac4bc75d69e7b4bc4dba8623042e17b13d5ff393e88a2f1d2
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@privyid/tailwind-preset@npm:0.15.0"
+"@privyid/tailwind-preset@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@privyid/tailwind-preset@npm:0.16.0"
   dependencies:
-    "@privyid/tailwind-animation": ^0.15.0
-    "@privyid/tailwind-extended": ^0.15.0
+    "@privyid/tailwind-animation": ^0.16.0
+    "@privyid/tailwind-extended": ^0.16.0
   peerDependencies:
     tailwind: ">= 3.0.0"
-  checksum: c8c06224069e8aaa8f7b2b1e622d78832070a96eb9050a2f70a72a771fc0730b29b37ff656b6082e68f030c4e806c553d707c4716666ca4878a1a78ec349cb43
+  checksum: 952feb80acdeae9d8b54cccc6e9d28d42391bd62f3a854f584c915c5fd6c43d8d191e55901a7201d7ecc80d801f25ac6906c475b89bdb7ec9924574683cbe92d
   languageName: node
   linkType: hard
 
@@ -2011,9 +2011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zxing/browser@npm:0.1.3":
-  version: 0.1.3
-  resolution: "@zxing/browser@npm:0.1.3"
+"@zxing/browser@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@zxing/browser@npm:0.1.4"
   dependencies:
     "@zxing/text-encoding": ^0.9.0
   peerDependencies:
@@ -2021,7 +2021,7 @@ __metadata:
   dependenciesMeta:
     "@zxing/text-encoding":
       optional: true
-  checksum: 95f245c60ebfc3c807b7622ba209b0c49a9475182eb3db1465e625ed2b8fcd62282e1ddda1ee6b819386578d2edc74f61a292475c46a72ec81d999cf121b71b2
+  checksum: 417eb969d4c6e5f9e45c28d6eabe2bc5c5b4ee274eaf58a7386a82bf09fba2dee8c0403b645eb33540ce2e396d40bd7328e6716ce23ae1a23e6bc01bcd06db89
   languageName: node
   linkType: hard
 
@@ -8476,13 +8476,13 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@pinia/nuxt": ^0.4.7
-    "@privyid/browserslist-config": ^0.15.0
-    "@privyid/eslint-config-persona": ^0.15.0
+    "@privyid/browserslist-config": ^0.16.0
+    "@privyid/eslint-config-persona": ^0.16.0
     "@privyid/nhp": ^0.2.0
     "@privyid/nuapi": ^0.2.1
-    "@privyid/persona": ^0.15.0
-    "@privyid/persona-icon": ^0.15.0
-    "@privyid/tailwind-preset": ^0.15.0
+    "@privyid/persona": ^0.16.0
+    "@privyid/persona-icon": ^0.16.0
+    "@privyid/tailwind-preset": ^0.16.0
     "@types/eslint": ^8
     "@typescript-eslint/eslint-plugin": ^5.55.0
     "@typescript-eslint/parser": ^5.55.0
