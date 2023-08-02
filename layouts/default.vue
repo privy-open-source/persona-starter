@@ -10,11 +10,11 @@
   <div class="flex h-full min-h-screen">
     <p-sidebar-menu :menus="menus" />
 
-    <p-main>
+    <div>
       <div class="bg-default">
         <slot />
       </div>
-    </p-main>
+    </div>
   </div>
 </template>
 
