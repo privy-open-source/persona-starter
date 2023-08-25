@@ -1,0 +1,21 @@
+{
+  "editor.rulers": [80],
+  "css.customData": [
+    ".vscode/tailwind.json"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "eslint.lintTask.options": "--cache .",
+  "eslint.lintTask.enable": true,
+  "eslint.options": {
+    "overrideConfig": {
+      "rules": {
+        "@typescript-eslint/no-misused-promises": "off",
+        "@typescript-eslint/promise-function-async": "off",
+        "@typescript-eslint/no-floating-promises": "off",
+      }
+    }
+  }
+}

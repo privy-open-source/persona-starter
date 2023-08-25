@@ -1,0 +1,39 @@
+name: build
+
+on:
+  push:
+    branches: ['dashboard', 'docs']
+
+  pull_request:
+    branches: ['dashboard', 'docs']
+
+  merge_group:
+    types: [checks_requested]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v3
+
+      # Create dummy .env
+      - name: Create env file
+        run: cp .env.example .env
+
+      # Pull the latest image to build, and avoid caching pull-only images.
+      # (docker pull is faster than caching in most cases.)
+      - name: Docker Pull
+        run: docker-compose pull
+
+      # In this step, this action saves a list of existing images,
+      # the cache is created without them in the post run.
+      # It also restores the cache if it exists.
+      - name: Docker Cache
+        uses: satackey/action-docker-layer-caching@v0.0.11
+        # Ignore the failure of a step and avoid terminating the job.
+        continue-on-error: true
+
+      - name: Docker Build
+        run: docker-compose build

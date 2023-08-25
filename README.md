@@ -1,18 +1,35 @@
-# Persona Starter
+# Persona with Nuxt 3 Starter
 
-> Persona starter templates
+Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) and [Persona documentation](https://privy-open-source.github.io/design-system) to learn more.
 
-## Templates
+## Setup
 
-| Name        | Install Local                                                | Try Online                                                                                                                                                           |
-|-------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `dashboard` | `npx degit privy-open-source/persona-starter#dashboard` | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
-| `docs`      | `npx degit privy-open-source/persona-starter#docs`      | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
+Make sure to install the dependencies:
 
-## Contribution
+```bash
+yarn install
+```
 
-Each templates is maintained on individual branch. For improvements, please open a Pull Request to each individal branch.
+## Development Server
 
-## License
+Start the development server on http://localhost:3000
 
-[MIT](/LICENSE) License (c) 2022 Privy Identitas Digital
+```bash
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+yarn build
+```
+
+Locally preview production build:
+
+```bash
+yarn preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
