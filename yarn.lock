@@ -22,6 +22,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@antfu/utils@npm:^0.7.5":
+  version: 0.7.6
+  resolution: "@antfu/utils@npm:0.7.6"
+  checksum: 92bf38ded4364e237c401e546eef3dbcc383186e1515e1e1c5c505d19ae12d8702cac7527b94c28f12ab6063d26969798297980619d42aba76771d8f3bc7f620
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.21.4":
   version: 7.21.4
   resolution: "@babel/code-frame@npm:7.21.4"
@@ -1455,9 +1462,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/nhp@npm:^0.3.0":
-  version: 0.3.1
-  resolution: "@privyid/nhp@npm:0.3.1"
+"@privyid/nhp@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@privyid/nhp@npm:0.4.0"
   dependencies:
     "@nuxt/kit": ^3.0.0
     connect: ^3.7.0
@@ -1465,11 +1472,16 @@ __metadata:
     fs-extra: ^11.1.0
     h3: ^1.6.0
     http-proxy-middleware: ^2.0.6
+    lodash-es: ^4.17.21
     meow: ^12.0.0
+    ofetch: ^1.1.1
+    openapi-types: ^12.1.3
+    type-fest: ^4.1.0
     ufo: ^1.1.2
+    unconfig: ^0.3.10
   bin:
     nhp: ./bin/nhp.js
-  checksum: 41df4431fe7a0e041d83f8801d76eda50ac452716ed8c61974f9ae59ce1b04117221d2e4bf136a0cb00983a7169aa32e83c398c4787528d69e61ef55038e14a9
+  checksum: 5b3352c79094257cc4dcfc6d39957a3f9380c63090b3d0f57e057df0e02486e7ea565adef75b32288cf66e60e7ffc3cb20a69834a12f7970927de844e47e4a42
   languageName: node
   linkType: hard
 
@@ -6252,7 +6264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:4.17.21":
+"lodash-es@npm:4.17.21, lodash-es@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash-es@npm:4.17.21"
   checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
@@ -7419,6 +7431,13 @@ __metadata:
     is-docker: ^2.1.1
     is-wsl: ^2.2.0
   checksum: 6388bfff21b40cb9bd8f913f9130d107f2ed4724ea81a8fd29798ee322b361ca31fa2cdfb491a5c31e43a3996cfe9566741238c7a741ada8d7af1cb78d85cf26
+  languageName: node
+  linkType: hard
+
+"openapi-types@npm:^12.1.3":
+  version: 12.1.3
+  resolution: "openapi-types@npm:12.1.3"
+  checksum: 7fa5547f87a58d2aa0eba6e91d396f42d7d31bc3ae140e61b5d60b47d2fd068b48776f42407d5a8da7280cf31195aa128c2fc285e8bb871d1105edee5647a0bb
   languageName: node
   linkType: hard
 
@@ -8643,7 +8662,7 @@ __metadata:
     "@pinia/nuxt": ^0.4.7
     "@privyid/browserslist-config": ^0.20.0
     "@privyid/eslint-config-persona": ^0.20.0
-    "@privyid/nhp": ^0.3.0
+    "@privyid/nhp": ^0.4.0
     "@privyid/nuapi": ^0.2.1
     "@privyid/persona": ^0.20.0
     "@privyid/persona-icon": ^0.20.0
@@ -9587,6 +9606,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"type-fest@npm:^4.1.0":
+  version: 4.3.1
+  resolution: "type-fest@npm:4.3.1"
+  checksum: 04e0f073dcc31c113c1b8856c089b388e7e9f4383a9ed72cc1466a89ec50d9d67678844eeec342b5a1ce71b21e817764d4f067aa148f6bcb5df9005ff3803382
+  languageName: node
+  linkType: hard
+
 "typed-array-length@npm:^1.0.4":
   version: 1.0.4
   resolution: "typed-array-length@npm:1.0.4"
@@ -9641,6 +9667,18 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"unconfig@npm:^0.3.10":
+  version: 0.3.10
+  resolution: "unconfig@npm:0.3.10"
+  dependencies:
+    "@antfu/utils": ^0.7.5
+    defu: ^6.1.2
+    jiti: ^1.19.1
+    mlly: ^1.4.0
+  checksum: 643191878865b00b9c1439296137a8d35663bab26497c955f44ef01a6b0c1708fd5402db76de6a6da4952e3b5ddd24e6c4b0f714af28696e2b1e77e1a4667d93
   languageName: node
   linkType: hard
 
