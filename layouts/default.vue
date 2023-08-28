@@ -1,23 +1,43 @@
 <template>
-  <p-navbar>
-    <p-navbar-brand>
-      <img
-        src="https://privy-design-system.vercel.app/assets/images/logo.svg"
-        alt="persona-icon"> Persona
-    </p-navbar-brand>
-  </p-navbar>
+  <div class="site">
+    <LayoutsNavbar v-model:toggle="model" />
 
-  <div class="flex h-full min-h-screen">
-    <p-sidebar-menu :menus="menus" />
+    <p-page
+      v-model="model"
+      expand="lg">
+      <LayoutsSidebar v-model="model" />
 
-    <div>
-      <div class="bg-default">
+      <p-main class="p-0">
         <slot />
-      </div>
-    </div>
+      </p-main>
+    </p-page>
   </div>
 </template>
 
 <script lang="ts" setup>
-import menus from '../menu'
+const model = ref(false)
 </script>
+<style lang="postcss">
+.page {
+  --p-page-type-narrow: 285px;
+
+  /**
+  * page reset padding-left
+  * althought is expanded 
+  */
+  &&--expand {
+    &:where(&&-all, &&-lg, &&-md, &&-sm) {
+      &:is(.page--expanded) {
+        &.page--type-wide,
+        &.page--type-narrow {
+          @apply pl-0;
+        }
+      }
+    }
+
+    &&-lg {
+      @apply lg:pl-[var(--p-page-type-narrow)];
+    }
+  }
+}
+</style>

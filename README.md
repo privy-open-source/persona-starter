@@ -1,4 +1,7 @@
-# Persona with Nuxt 3 Starter
+# Persona Dashboard with Nuxt 3 Starter
+
+![persona dashboard starter](assets/images/screenshot.png "Persona starter for admin dashboard")
+
 
 Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) and [Persona documentation](https://privy-open-source.github.io/design-system) to learn more.
 

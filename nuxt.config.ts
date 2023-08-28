@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@privyid/nhp',
     '@privyid/nuapi',
   ],
-  css    : ['~/assets/css/tailwind.css'],
+  css    : ['~/assets/css/tailwind.css', '~/assets/css/style.css'],
   postcss: {
     plugins: {
       'postcss-hexrgba'       : {},

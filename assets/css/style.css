@@ -1,0 +1,14 @@
+html,
+body,
+#__nuxt {
+  @apply h-full;
+}
+
+body {
+  @apply bg-default;
+  @apply dark:bg-dark-default;
+}
+
+.site {
+  @apply min-h-full;
+}
