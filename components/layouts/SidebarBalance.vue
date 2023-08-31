@@ -11,7 +11,9 @@
     align="start"
     class="carousel--balance">
     <p-carousel-item>
-      <NuxtLink to="#" class="no-underline">
+      <NuxtLink
+        to="#"
+        class="no-underline">
         <p-card
           element="div"
           class="h-full px-4 py-2 shadow-sm"
@@ -32,7 +34,9 @@
       </NuxtLink>
     </p-carousel-item>
     <p-carousel-item>
-      <NuxtLink to="#" class="no-underline">
+      <NuxtLink
+        to="#"
+        class="no-underline">
         <p-card
           element="div"
           class="h-full px-4 py-2 shadow-sm"
@@ -53,7 +57,9 @@
       </NuxtLink>
     </p-carousel-item>
     <p-carousel-item>
-      <NuxtLink to="#" class="no-underline">
+      <NuxtLink
+        to="#"
+        class="no-underline">
         <p-card
           element="div"
           class="h-full px-4 py-2 border shadow-sm"

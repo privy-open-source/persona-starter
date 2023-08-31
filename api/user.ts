@@ -7,6 +7,6 @@ export interface Account {
   value: number,
 }
 
-export function getUser () {
-  return useApi().get('/user')
+export async function getUser () {
+  return await useApi().get('/user')
 }

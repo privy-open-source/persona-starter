@@ -23,7 +23,7 @@ const model = ref(false)
 
   /**
   * page reset padding-left
-  * althought is expanded 
+  * althought is expanded
   */
   &&--expand {
     &:where(&&-all, &&-lg, &&-md, &&-sm) {

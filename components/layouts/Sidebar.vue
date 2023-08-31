@@ -115,7 +115,7 @@ const enterprise = ref([
 ])
 
 const currentAccount = ref<Account>({
-  text: 'Jane Saliman Rasih',
+  text : 'Jane Saliman Rasih',
   value: 1,
 })
 
