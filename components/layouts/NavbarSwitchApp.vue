@@ -1,10 +1,7 @@
 <template>
-  <p-subheading
-    class="px-4 pt-4 pb-1"
-    weight="medium"
-    overline>
+  <p-dropdown-header>
     Switch To
-  </p-subheading>
+  </p-dropdown-header>
   <p-dropdown-item>
     <span class="flex items-center space-x-2">
       <span>

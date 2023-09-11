@@ -5,12 +5,9 @@
     <template #button-content>
       <p-avatar />
     </template>
-    <p-subheading
-      class="px-4 pt-4 pb-1"
-      weight="medium"
-      overline>
+    <p-dropdown-header>
       Profile
-    </p-subheading>
+    </p-dropdown-header>
     <p-dropdown-item>
       <span class="flex items-center space-x-2">
         <p-avatar src="https://picsum.photos/50" />
