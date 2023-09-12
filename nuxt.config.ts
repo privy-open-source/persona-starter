@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
+    '@privyid/pong',
     '@privyid/persona',
     '@privyid/persona-icon',
     '@privyid/nhp',

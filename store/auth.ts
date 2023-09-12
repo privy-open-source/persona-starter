@@ -1,6 +1,7 @@
 interface User {
   name: string,
   email: string,
+  access: string,
 }
 
 export const useAuthStore = defineStore('auth-store', () => {
@@ -9,8 +10,9 @@ export const useAuthStore = defineStore('auth-store', () => {
   function getProfile () {
     // TODO: load profile from Backend
     user.value = {
-      name : 'Trajono',
-      email: 'trajono@anumas.com',
+      name  : 'Trajono',
+      email : 'trajono@anumas.com',
+      access: 'superadmin',
     }
   }
 

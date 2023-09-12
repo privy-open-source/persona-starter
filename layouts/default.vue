@@ -17,6 +17,7 @@
 <script lang="ts" setup>
 const model = ref(false)
 </script>
+
 <style lang="postcss">
 .page {
   --p-page-type-narrow: 285px;
