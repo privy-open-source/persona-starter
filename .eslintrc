@@ -1,8 +1,9 @@
 {
   "extends": ["@privyid/eslint-config-persona"],
-  "parserOptions": { "project": "./tsconfig.json" },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
-    "no-undef": "off",
-    "@typescript-eslint/key-spacing": "off"
+    "no-undef": "off"
   }
 }

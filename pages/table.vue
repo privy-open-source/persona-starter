@@ -5,11 +5,11 @@
 <script lang="ts" setup>
 import { defineTable } from '@privyid/persona/core'
 
-  interface User {
-    id: number,
-    name: string,
-    _selectable?: boolean,
-  }
+interface User {
+  id: number,
+  name: string,
+  _selectable?: boolean,
+}
 
 const fields = defineTable<User>([
   {

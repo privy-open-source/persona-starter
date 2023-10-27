@@ -58,7 +58,7 @@
 import menus from '~/menu'
 import { templateRef, useElementSize } from '@vueuse/core'
 import { toast } from '@privyid/persona/core'
-import { Account } from '~/api/user'
+import { type Account } from '~/api/user'
 
 const props = defineProps({ modelValue: { type: Boolean, default: false } })
 const emit  = defineEmits(['update:modelValue'])
@@ -119,7 +119,7 @@ const currentAccount = ref<Account>({
   value: 1,
 })
 
-const switchAccount = (account: Account):void => {
+function switchAccount (account: Account): void {
   currentAccount.value = account
 
   toast({

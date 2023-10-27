@@ -27,11 +27,13 @@
     </span>
   </span>
 </template>
+
 <script lang="ts" setup>
+import { useLang } from '@privyid/persona/core'
 /**
  * Switch language
  */
 const languages = ref([{ text: 'ID', value: 'id' }, { text: 'EN', value: 'en' }])
-const selected  = ref('id')
+const selected  = useLang()
 
 </script>
