@@ -1860,23 +1860,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/pong@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@privyid/pong@npm:0.1.0"
+"@privyid/pong@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "@privyid/pong@npm:0.2.1"
   dependencies:
     "@fingerprintjs/fingerprintjs": ^4.0.0
     "@nuxt/kit": ^3.6.5
     browserslist-ua-parser: ^1.0.1
     dd-trace: ^4.11.0
     defu: ^6.1.2
-    nanoid: ^4.0.2
+    destr: ^2.0.1
+    nanoid: ^5.0.0
     pino-http: ^8.3.3
   peerDependencies:
     "@privyid/nuapi": "*"
   peerDependenciesMeta:
     "@privyid/nuapi":
       optional: true
-  checksum: c1bcabb78a286fb48a5860f7ab7948c06d3e8346efd70502c6fa4bd8035df8cf024243d7af33ea6ab645a30bbb98954d0fb183b99e50f3e782574929c4c55dce
+  checksum: 25c9986cbde7c2163a408315146417f3cc9af99248d61a337eafea39a35f0d8392a7a7090659f85d10ccb88fbf143e5e0eec494f4ad40898db2bf2b05fcaddbf
   languageName: node
   linkType: hard
 
@@ -8077,6 +8078,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^5.0.0":
+  version: 5.0.2
+  resolution: "nanoid@npm:5.0.2"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: fa6908c2c6a7a9e91e02b98cb0b9b829454d390a63f83c1798f0c504d07b536d99cad3e975e5014b176534e67e234ff66bccd4610bf3ffb2cf0d6d932a73f3a8
+  languageName: node
+  linkType: hard
+
 "napi-wasm@npm:^1.1.0":
   version: 1.1.0
   resolution: "napi-wasm@npm:1.1.0"
@@ -10182,7 +10192,7 @@ __metadata:
     "@privyid/nuapi": ^0.2.1
     "@privyid/persona": ^0.25.0
     "@privyid/persona-icon": ^0.25.0
-    "@privyid/pong": ^0.1.0
+    "@privyid/pong": ^0.2.0
     "@privyid/tailwind-preset": ^0.25.0
     "@splidejs/splide": ^4.1.4
     "@types/eslint": ^8
