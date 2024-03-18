@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Git Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Create dummy .env
       - name: Create env file
