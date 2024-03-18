@@ -1770,8 +1770,8 @@ __metadata:
   linkType: hard
 
 "@privyid/nhp@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@privyid/nhp@npm:0.4.0"
+  version: 0.4.1
+  resolution: "@privyid/nhp@npm:0.4.1"
   dependencies:
     "@nuxt/kit": ^3.0.0
     connect: ^3.7.0
@@ -1788,7 +1788,7 @@ __metadata:
     unconfig: ^0.3.10
   bin:
     nhp: ./bin/nhp.js
-  checksum: 5b3352c79094257cc4dcfc6d39957a3f9380c63090b3d0f57e057df0e02486e7ea565adef75b32288cf66e60e7ffc3cb20a69834a12f7970927de844e47e4a42
+  checksum: 5d97c9b863ef6d2b4e9b5bb9c9cd356ad48268cefb70b3693eeb245e3841e7f8582828f30d3116bb89a36a5b751696550c321d66a7a69239b7eca87aad754846
   languageName: node
   linkType: hard
 
