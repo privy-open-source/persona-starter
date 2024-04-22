@@ -1641,14 +1641,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/browserslist-config@npm:^0.27.0":
+"@privyid/browserslist-config@npm:0.27.0":
   version: 0.27.0
   resolution: "@privyid/browserslist-config@npm:0.27.0"
   checksum: ddd0a7152e622d75f102c593c5dca856cc3f8b834d8fdc2fb0866638f0708fe6dff5ed3f841431a56668f006a9c1d2ceeb61062787dbcdd475428dc76148b550
   languageName: node
   linkType: hard
 
-"@privyid/eslint-config-persona@npm:^0.27.0":
+"@privyid/eslint-config-persona@npm:0.27.0":
   version: 0.27.0
   resolution: "@privyid/eslint-config-persona@npm:0.27.0"
   peerDependencies:
@@ -1706,7 +1706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona-icon@npm:^0.27.0":
+"@privyid/persona-icon@npm:0.27.0":
   version: 0.27.0
   resolution: "@privyid/persona-icon@npm:0.27.0"
   dependencies:
@@ -1716,7 +1716,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/persona@npm:^0.27.0":
+"@privyid/persona@npm:0.27.0":
   version: 0.27.0
   resolution: "@privyid/persona@npm:0.27.0"
   dependencies:
@@ -1800,7 +1800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/tailwind-preset@npm:^0.27.0":
+"@privyid/tailwind-preset@npm:0.27.0":
   version: 0.27.0
   resolution: "@privyid/tailwind-preset@npm:0.27.0"
   dependencies:
@@ -10128,14 +10128,14 @@ __metadata:
   dependencies:
     "@nuxt/devtools": ^1.0.0
     "@pinia/nuxt": ^0.5.0
-    "@privyid/browserslist-config": ^0.27.0
-    "@privyid/eslint-config-persona": ^0.27.0
+    "@privyid/browserslist-config": 0.27.0
+    "@privyid/eslint-config-persona": 0.27.0
     "@privyid/nhp": ^0.4.0
     "@privyid/nuapi": ^0.2.1
-    "@privyid/persona": ^0.27.0
-    "@privyid/persona-icon": ^0.27.0
+    "@privyid/persona": 0.27.0
+    "@privyid/persona-icon": 0.27.0
     "@privyid/pong": ^0.4.0
-    "@privyid/tailwind-preset": ^0.27.0
+    "@privyid/tailwind-preset": 0.27.0
     "@splidejs/splide": ^4.1.4
     "@types/eslint": ^8
     "@typescript-eslint/eslint-plugin": 7.7.0
