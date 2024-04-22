@@ -39,7 +39,7 @@
     "eslint-plugin-vue": "9.24.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
-    "nuxt": "^3.8.0",
+    "nuxt": "3.8.0",
     "pinia": "^2.0.33",
     "pino-colada": "^2.2.2",
     "postcss": "^8.4.24",
