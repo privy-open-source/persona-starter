@@ -21,7 +21,7 @@
     "@privyid/persona-icon": "0.27.0",
     "@privyid/tailwind-preset": "0.27.0",
     "@splidejs/splide": "^4.1.4",
-    "@types/eslint": "^8",
+    "@types/eslint": "^8.56.5",
     "@typescript-eslint/eslint-plugin": "7.7.0",
     "@typescript-eslint/parser": "7.7.0",
     "@vue/eslint-config-typescript": "13.0.0",

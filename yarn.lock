@@ -2168,13 +2168,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8, @types/eslint@npm:^8.0.0":
+"@types/eslint@npm:^8.0.0":
   version: 8.56.5
   resolution: "@types/eslint@npm:8.56.5"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
   checksum: 95a7a23ca38c78e5c27a2ed36ef60f094d5e6589e3473c320b6ff69eb3ca6333d5b7f0d5053416369f5ab2fb86874df19562d4d67a98237c17def6e30abff540
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:^8.56.5":
+  version: 8.56.10
+  resolution: "@types/eslint@npm:8.56.10"
+  dependencies:
+    "@types/estree": "*"
+    "@types/json-schema": "*"
+  checksum: fb7137dd263ce1130b42d14452bdd0266ef81f52cb55ba1a5e9750e65da1f0596dc598c88bffc7e415458b6cb611a876dcc132bcf40ea48701c6d05b40c57be5
   languageName: node
   linkType: hard
 
@@ -10162,7 +10172,7 @@ __metadata:
     "@privyid/pong": ^0.4.0
     "@privyid/tailwind-preset": 0.27.0
     "@splidejs/splide": ^4.1.4
-    "@types/eslint": ^8
+    "@types/eslint": ^8.56.5
     "@typescript-eslint/eslint-plugin": 7.7.0
     "@typescript-eslint/parser": 7.7.0
     "@vue/eslint-config-typescript": 13.0.0
