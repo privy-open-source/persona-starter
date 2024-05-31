@@ -42,7 +42,7 @@
     "html-escaper": "^3.0.3",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "nuxt": "^3.11.2",
+    "nuxt": "3.11.2",
     "pinia": "^2.1.7",
     "pino-colada": "^2.2.2",
     "postcss": "^8.4.38",

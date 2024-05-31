@@ -8451,7 +8451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^3.11.2":
+"nuxt@npm:3.11.2":
   version: 3.11.2
   resolution: "nuxt@npm:3.11.2"
   dependencies:
@@ -10156,7 +10156,7 @@ __metadata:
     html-escaper: "npm:^3.0.3"
     husky: "npm:^8.0.3"
     lint-staged: "npm:^14.0.1"
-    nuxt: "npm:^3.11.2"
+    nuxt: "npm:3.11.2"
     pinia: "npm:^2.1.7"
     pino-colada: "npm:^2.2.2"
     postcss: "npm:^8.4.38"
