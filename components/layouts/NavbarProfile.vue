@@ -38,6 +38,3 @@
     </p-dropdown-item>
   </p-nav-item-dropdown>
 </template>
-<script lang="ts" setup>
-
-</script>

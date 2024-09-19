@@ -32,6 +32,7 @@
     </p-navbar-nav>
   </p-navbar>
 </template>
+
 <script lang="ts" setup>
 /**
  * Toggle sidebar via burger menu
@@ -44,9 +45,11 @@ const model = ref(false)
 
 const toggle = () => {
   model.value = !model.value
+
   emit('update:toggle', model.value)
 }
 </script>
+
 <style lang="postcss">
 .navbar {
   --p-navbar-z-index: 1045;

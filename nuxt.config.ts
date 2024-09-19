@@ -17,7 +17,6 @@ export default defineNuxtConfig({
       'autoprefixer'          : {},
     },
   },
-  pinia     : { autoImports: ['defineStore', 'storeToRefs'] },
   typescript: {
     tsConfig: {
       compilerOptions: {
