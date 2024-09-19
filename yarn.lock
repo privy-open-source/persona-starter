@@ -2945,7 +2945,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.10, @types/eslint@npm:^8.0.0":
+"@types/eslint@npm:8.56.12":
+  version: 8.56.12
+  resolution: "@types/eslint@npm:8.56.12"
+  dependencies:
+    "@types/estree": "npm:*"
+    "@types/json-schema": "npm:*"
+  checksum: 10/bd998b5d3f98ac430ec8db6223f1cff1820774c1e72eabda05463256875d97065fd357fba7379dd25e6bfbeb73296f28faff6f4dcbc320f890bb49b09087644d
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:^8.0.0":
   version: 8.56.10
   resolution: "@types/eslint@npm:8.56.10"
   dependencies:
@@ -11374,7 +11384,7 @@ __metadata:
     "@privyid/persona-icon": "npm:1.0.0-rc.12"
     "@privyid/pong": "npm:0.5.0"
     "@privyid/tailwind-preset": "npm:1.0.0-rc.12"
-    "@types/eslint": "npm:8.56.10"
+    "@types/eslint": "npm:8.56.12"
     "@types/html-escaper": "npm:3.0.2"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
