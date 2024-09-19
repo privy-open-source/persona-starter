@@ -40,7 +40,7 @@
     "eslint-plugin-vue": "9.27.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "nuxt": "3.11.2",
+    "nuxt": "3.13.2",
     "pinia": "2.1.7",
     "pino-colada": "2.2.2",
     "postcss": "8.4.38",
