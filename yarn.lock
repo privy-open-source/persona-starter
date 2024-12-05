@@ -9536,7 +9536,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^3.14.1592":
+"nuxt@npm:3.14.1592":
   version: 3.14.1592
   resolution: "nuxt@npm:3.14.1592"
   dependencies:
@@ -11684,7 +11684,7 @@ __metadata:
     eslint-plugin-vue: "npm:9.30.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:14.0.1"
-    nuxt: "npm:^3.14.1592"
+    nuxt: "npm:3.14.1592"
     pinia: "npm:2.3.0"
     pino-colada: "npm:2.2.2"
     postcss: "npm:8.4.49"
