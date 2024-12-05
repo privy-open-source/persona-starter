@@ -4,9 +4,7 @@
     :menus="menus"
     fixed
     toggleable="lg">
-    <p-sidebar-brand
-      ref="sidebar-brand"
-      :data-brand="brandHeight">
+    <p-sidebar-brand>
       <p-caption
         weight="bold"
         transform="capitalize">
@@ -30,8 +28,8 @@
               {{ account.title }}
             </p-subheading>
             <template
-              v-for="(user, index) in account.item"
-              :key="index">
+              v-for="(user, i) in account.item"
+              :key="i">
               <p-dropdown-item @click="switchAccount(user)">
                 <span class="flex items-center space-x-2">
                   <span>{{ user.text }}</span>
@@ -47,7 +45,7 @@
       </div>
     </p-sidebar-brand>
     <template #bottom>
-      <div ref="sidebar-bottom">
+      <div>
         <LayoutsSidebarBalance />
       </div>
     </template>
@@ -56,7 +54,6 @@
 
 <script lang="ts" setup>
 import menus from '~/menu'
-import { templateRef, useElementSize } from '@vueuse/core'
 import { toast } from '@privyid/persona/core'
 import { type Account } from '~/api/user'
 
@@ -70,20 +67,6 @@ const model = computed({
   set (value) {
     emit('update:modelValue', value)
   },
-})
-
-const sidebarBrand = templateRef<HTMLDivElement>('sidebar-brand')
-const brand        = useElementSize(sidebarBrand)
-
-const brandHeight = computed(() => {
-  return `${brand.height.value}px`
-})
-
-const sidebarBottom = templateRef<HTMLDivElement>('sidebar-bottom')
-const bottom        = useElementSize(sidebarBottom)
-
-const bottomHeight = computed(() => {
-  return `${bottom.height.value + 80}px`
 })
 
 /**
@@ -137,15 +120,16 @@ function switchAccount (account: Account): void {
   --p-sidebar-bg-dark: theme(backgroundColor.dark.default.DEFAULT);
   --p-sidebar-size-wide: 285px;
   --p-sidebar-padding-x: theme(spacing.0);
+  --p-sidebar-padding-bottom: theme(spacing.0);
 
   @apply pt-16;
 
   &&--fixed {
-    @apply shadow-none overflow-hidden border-r border-r-muted;
-    @apply dark:border-r-dark-muted;
+    @apply shadow-none overflow-hidden border-r border-r-subtlest;
+    @apply dark:border-r-dark-subtlest;
 
     .sidebar__menus {
-      @apply h-[calc(100%-v-bind(brandHeight))] overflow-y-auto overflow-x-hidden px-7 !pb-[v-bind(bottomHeight)] overscroll-contain;
+      @apply flex-grow overflow-y-auto overflow-x-hidden px-7 overscroll-contain;
     }
 
     .sidebar__title {
@@ -153,8 +137,9 @@ function switchAccount (account: Account): void {
     }
 
     .sidebar__bottom {
-      @apply fixed bottom-0 bg-default w-[var(--p-sidebar-size-wide)] px-7 py-5 border-t border-r border-t-muted border-r-muted;
-      @apply dark:bg-dark-default dark:border-t-dark-muted dark:border-r-dark-muted;
+      @apply flex-shrink-0;
+      @apply bg-default w-[var(--p-sidebar-size-wide)] px-7 py-5 border-t border-r border-t-subtlest border-r-subtlest;
+      @apply dark:bg-dark-default dark:border-t-dark-subtlest dark:border-r-dark-subtlest;
 
       .caption {
         @apply text-subtle mb-4 ml-3;

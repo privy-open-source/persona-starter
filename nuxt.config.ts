@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
-  modules: [
+  compatibilityDate: '2024-12-05',
+  devtools         : { enabled: false },
+  modules          : [
     '@pinia/nuxt',
     '@privyid/pong',
     '@privyid/persona',
