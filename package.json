@@ -22,7 +22,7 @@
     "@privyid/persona-icon": "1.0.0-rc.14",
     "@privyid/pong": "0.8.0",
     "@privyid/tailwind-preset": "1.0.0-rc.14",
-    "@types/eslint": "8.56.12",
+    "@types/eslint": "9.6.1",
     "@types/html-escaper": "3.0.2",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
