@@ -1,7 +1,7 @@
 ##############################
 ## Building
 ##############################
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 RUN apk update && apk upgrade --ignore alpine-baselayout && \
     apk add --no-cache \
@@ -43,7 +43,7 @@ RUN yarn build
 ##############################
 ## Running
 ##############################
-FROM node:20-alpine
+FROM node:22-alpine
 
 # Add package curl
 RUN apk update && apk upgrade --ignore alpine-baselayout && \
