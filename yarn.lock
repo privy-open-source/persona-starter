@@ -1454,54 +1454,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^3.12.4":
-  version: 3.13.1
-  resolution: "@nuxt/kit@npm:3.13.1"
-  dependencies:
-    "@nuxt/schema": "npm:3.13.1"
-    c12: "npm:^1.11.2"
-    consola: "npm:^3.2.3"
-    defu: "npm:^6.1.4"
-    destr: "npm:^2.0.3"
-    globby: "npm:^14.0.2"
-    hash-sum: "npm:^2.0.0"
-    ignore: "npm:^5.3.2"
-    jiti: "npm:^1.21.6"
-    klona: "npm:^2.0.6"
-    knitwork: "npm:^1.1.0"
-    mlly: "npm:^1.7.1"
-    pathe: "npm:^1.1.2"
-    pkg-types: "npm:^1.2.0"
-    scule: "npm:^1.3.0"
-    semver: "npm:^7.6.3"
-    ufo: "npm:^1.5.4"
-    unctx: "npm:^2.3.1"
-    unimport: "npm:^3.11.1"
-    untyped: "npm:^1.4.2"
-  checksum: 10/a11ba4addcffce40a645723f3a18832a75f195a07ddb44585fb5e73811d66447e02c3f64a512bbd1b6de197fb92890e382ba75305175fee2fe71918ef9129824
-  languageName: node
-  linkType: hard
-
-"@nuxt/schema@npm:3.13.1":
-  version: 3.13.1
-  resolution: "@nuxt/schema@npm:3.13.1"
-  dependencies:
-    compatx: "npm:^0.1.8"
-    consola: "npm:^3.2.3"
-    defu: "npm:^6.1.4"
-    hookable: "npm:^5.5.3"
-    pathe: "npm:^1.1.2"
-    pkg-types: "npm:^1.2.0"
-    scule: "npm:^1.3.0"
-    std-env: "npm:^3.7.0"
-    ufo: "npm:^1.5.4"
-    uncrypto: "npm:^0.1.3"
-    unimport: "npm:^3.11.1"
-    untyped: "npm:^1.4.2"
-  checksum: 10/ae8d0c5ff7987263259abb643daaad5726f085cc027b49ef9f702d45b57358312b17a85387893edb859f0f2654e83b9c72d11ab976f4d868d2b38335f5186fc8
-  languageName: node
-  linkType: hard
-
 "@nuxt/schema@npm:3.13.2":
   version: 3.13.2
   resolution: "@nuxt/schema@npm:3.13.2"
@@ -1880,18 +1832,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@privyid/nuapi@npm:0.3.0-alpha.6":
-  version: 0.3.0-alpha.6
-  resolution: "@privyid/nuapi@npm:0.3.0-alpha.6"
+"@privyid/nuapi@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@privyid/nuapi@npm:1.0.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.12.4"
+    "@nuxt/kit": "npm:^3.13.2"
     axios: "npm:^1.7.2"
     defu: "npm:^6.1.4"
     ofetch: "npm:^1.3.4"
     ufo: "npm:^1.5.4"
   peerDependencies:
     nuxt: ">=3.4.0"
-  checksum: 10/f15edde6b35019f504017a524ff6e1cecce53f91f1f4c5d97b0f2d08382573c251a2c07af1963b0bb50fe7755a1101931c067f5a7ade43bd7e729dba2f835680
+  checksum: 10/9149a42f445c0a26bb94e4c04297a92d621e5a17becb450452c5cdb598eec180f6f32e30bbcff6d45032918afb93d4c390aea2a3a367fcb52d61ac4fe1725c1a
   languageName: node
   linkType: hard
 
@@ -11732,7 +11684,7 @@ __metadata:
     "@privyid/browserslist-config": "npm:1.0.0"
     "@privyid/eslint-config-persona": "npm:1.0.0"
     "@privyid/nhp": "npm:1.0.1"
-    "@privyid/nuapi": "npm:0.3.0-alpha.6"
+    "@privyid/nuapi": "npm:1.0.0"
     "@privyid/persona": "npm:1.0.0"
     "@privyid/persona-icon": "npm:1.0.0"
     "@privyid/pong": "npm:0.8.0"
@@ -13177,27 +13129,6 @@ __metadata:
   version: 0.1.0
   resolution: "unicorn-magic@npm:0.1.0"
   checksum: 10/9b4d0e9809807823dc91d0920a4a4c0cff2de3ebc54ee87ac1ee9bc75eafd609b09d1f14495e0173aef26e01118706196b6ab06a75fe0841028b3983a8af313f
-  languageName: node
-  linkType: hard
-
-"unimport@npm:^3.11.1":
-  version: 3.12.0
-  resolution: "unimport@npm:3.12.0"
-  dependencies:
-    "@rollup/pluginutils": "npm:^5.1.0"
-    acorn: "npm:^8.12.1"
-    escape-string-regexp: "npm:^5.0.0"
-    estree-walker: "npm:^3.0.3"
-    fast-glob: "npm:^3.3.2"
-    local-pkg: "npm:^0.5.0"
-    magic-string: "npm:^0.30.11"
-    mlly: "npm:^1.7.1"
-    pathe: "npm:^1.1.2"
-    pkg-types: "npm:^1.2.0"
-    scule: "npm:^1.3.0"
-    strip-literal: "npm:^2.1.0"
-    unplugin: "npm:^1.14.1"
-  checksum: 10/2b4f8e30f0953708956ae163a9d12547434039363ce140985ffc5e6051032a2b4884f295713c558a4352b5331e386ae5b570e375cefa6cd45044c65730c31f82
   languageName: node
   linkType: hard
 
