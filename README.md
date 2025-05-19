@@ -1,18 +1,5 @@
-# Persona Starter
+# Vue 3 + Vite
 
-> Persona starter templates
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Templates
-
-| Name        | Install Local                                                | Try Online                                                                                                                                                           |
-|-------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `dashboard` | `npx degit privy-open-source/persona-starter#dashboard` | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
-| `docs`      | `npx degit privy-open-source/persona-starter#docs`      | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/privy-open-source/persona-starter/tree/dashboard) |
-
-## Contribution
-
-Each templates is maintained on individual branch. For improvements, please open a Pull Request to each individal branch.
-
-## License
-
-[MIT](/LICENSE) License (c) 2022 Privy Identitas Digital
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).

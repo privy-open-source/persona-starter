@@ -1,0 +1,14 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="15.8167" cy="21.856" rx="14.0913" ry="14.0913" fill="#E42E2C"/>
+<ellipse style="mix-blend-mode:multiply" cx="15.8167" cy="21.856" rx="14.0913" ry="14.0913" fill="url(#paint0_linear_1491_112164)" fill-opacity="0.1"/>
+<path d="M22.5881 34.1962C24.2764 33.2709 25.7634 32.013 26.9586 30.499L42.2036 11.1948C40.5896 9.92016 38.746 8.96884 36.7779 8.39519C34.8099 7.82153 32.7559 7.63677 30.7334 7.85145C28.7108 8.06613 26.7192 8.58034 24.9901 9.64639C24.2244 10.1185 23.9003 10.5344 23.3541 11.2354L23.321 11.278L6.56897 32.4904C8.00055 33.7478 9.67583 34.6969 11.4928 35.2798C13.3098 35.8627 15.2305 36.0672 17.1379 35.8809C19.0454 35.6947 20.8997 35.1214 22.5881 34.1962Z" fill="#E42E2C"/>
+<defs>
+<linearGradient id="paint0_linear_1491_112164" x1="15.8167" y1="21.856" x2="10.0863" y2="17.0649" gradientUnits="userSpaceOnUse">
+<stop offset="0.157792"/>
+<stop offset="0.366183" stop-opacity="0.75"/>
+<stop offset="0.572837" stop-opacity="0.5"/>
+<stop offset="0.801512" stop-opacity="0.25"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
